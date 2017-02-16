@@ -72,9 +72,8 @@
       -o-transition: all ease 600ms;
       padding-bottom: 10px; }
       .mainMenu ul li a:hover {
-        color: #E79800; }
-    .mainMenu ul li:hover {
-      border-bottom: 2px solid #E79800; }
+        color: #E79800;
+        border-bottom: 2px solid #E79800; }
   .mainMenu ul li:last-child {
     margin-right: 0 !important; }
 

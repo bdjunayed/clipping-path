@@ -89,43 +89,43 @@
         &:hover{
 
         }
-      
+
     }
     ul li:last-child{
         margin-right: 0!important;
     }
-      .submenu {
-            position: absolute;
-            left: 0;
-            top: 80px;
-            width: 167px;
-            height: auto;
-            display: block;
-            background: #fff;
-            visibility: hidden;
-            color: #333;
-            opacity: 0;
-            transition: all ease 500ms;
-            z-index: 1;
-            padding-bottom: 12px;
+    .submenu {
+        position: absolute;
+        left: 0;
+        top: 80px;
+        width: 167px;
+        height: auto;
+        display: block;
+        background: #fff;
+        visibility: hidden;
+        color: #333;
+        opacity: 0;
+        transition: all ease 500ms;
+        z-index: 1;
+        padding-bottom: 12px;
+    }
+    li:hover .submenu {
+        visibility: visible;
+        opacity: 1;
+        top: 60px;
+    }
+    .submenu li {
+        padding: 12px 0 0 30px;
+        display: block;
+        text-align: left;
+        width: 100%;
+        height: auto;
+        a {
+            text-transform: uppercase;
+            font-size: 14px;
+            border: none !important;
         }
-        li:hover .submenu {
-            visibility: visible;
-            opacity: 1;
-            top: 60px;
-        }
-        .submenu li {
-            padding: 12px 0 0 30px;
-            display: block;
-            text-align: left;
-            width: 100%;
-            height: auto;
-            a {
-                text-transform: uppercase;
-                font-size: 14px;
-                border: none !important;
-            }
-        }
+    }
 }
 
 /*===========================end header menu=======================*/
@@ -308,4 +308,120 @@
         }
     }
 
+}
+
+/*--------------------------start slider----------------*/
+.sliderSec{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    .carousel-control span{
+        position: absolute;
+        left: 0;
+        top: 255px;
+        bottom: 0;
+        right: 0;
+        margin: 0 auto;
+        font-family: 'fontawesome';
+        font-size: 30px;
+    }
+    .slideContent{
+        position: absolute;
+        left: 0;
+        top: 160px;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        h1{
+            font-size: 48px;
+            font-weight: 700;
+            color: #E79800;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            line-height: 56px;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            color: #fff;
+            margin-bottom: 36px;
+        }
+        a{
+            font-size: 14px;
+            font-weight: 400;
+            color: #fff;
+            border: 1px solid #fff;
+            padding: 12px 28px;
+            background: #174873;
+            transition: all ease 500ms;
+            &:hover{
+                background: #E79800;
+                border-color: #E79800;
+            }
+        }
+    }
+}
+/*----------------------end slider----------------*/
+
+/*----------------------start about us-------------*/
+.aboutUs{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    .abImg{
+        width: 100%;
+        height: auto;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .abContent{
+        position: relative;
+        width: 100%;
+        h1{
+            font-size: 33px;
+            font-weight: 700;
+            color: #174873;
+            line-height: 56px;
+            text-transform: uppercase;
+            span{
+                color: #E79800;
+            }
+        }
+        h4{
+            font-size: 18px;;
+            font-weight: normal;
+            text-transform: capitalize;
+            color: #2F2F2F;
+            letter-spacing: 1px;
+            line-height: 22px;
+            margin-bottom: 12px;
+        }
+        p{
+            color: #5d5d5d;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 25px;
+            margin-bottom: 20px;
+        }
+        a{
+            background: #174873 none repeat scroll 0 0;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 13px;
+            font-weight: 400;
+            padding: 15px 20px;
+            text-transform: uppercase;
+            transition: all ease 500ms;
+            &:hover{
+                background: #E79800;
+            }
+            
+        }
+    }
 }

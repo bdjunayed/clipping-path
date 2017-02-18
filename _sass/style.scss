@@ -89,11 +89,43 @@
         &:hover{
 
         }
-
+      
     }
     ul li:last-child{
         margin-right: 0!important;
     }
+      .submenu {
+            position: absolute;
+            left: 0;
+            top: 80px;
+            width: 167px;
+            height: auto;
+            display: block;
+            background: #fff;
+            visibility: hidden;
+            color: #333;
+            opacity: 0;
+            transition: all ease 500ms;
+            z-index: 1;
+            padding-bottom: 12px;
+        }
+        li:hover .submenu {
+            visibility: visible;
+            opacity: 1;
+            top: 60px;
+        }
+        .submenu li {
+            padding: 12px 0 0 30px;
+            display: block;
+            text-align: left;
+            width: 100%;
+            height: auto;
+            a {
+                text-transform: uppercase;
+                font-size: 14px;
+                border: none !important;
+            }
+        }
 }
 
 /*===========================end header menu=======================*/
@@ -275,5 +307,5 @@
             }
         }
     }
-    
+
 }

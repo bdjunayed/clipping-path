@@ -134,3 +134,90 @@
     -o-transition: all ease 600ms; }
     .fowidgetmenu a:hover {
       color: #E79800; }
+
+.officehour li {
+  list-style: none;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  line-height: 25px;
+  margin-bottom: 9px; }
+
+.footerRightWidget {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px; }
+  .footerRightWidget .FooIcon {
+    width: 20%;
+    height: auto;
+    float: left; }
+    .footerRightWidget .FooIcon i {
+      font-size: 18px;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 11px; }
+  .footerRightWidget .FooIcon1 i {
+    padding: 11px 16px; }
+  .footerRightWidget .addInfo {
+    width: 77%;
+    height: auto;
+    float: left;
+    color: #fff;
+    margin-left: 7px; }
+    .footerRightWidget .addInfo h4 {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 19px;
+      margin-bottom: 7px; }
+    .footerRightWidget .addInfo p {
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 22px; }
+
+.headerInformation.footericon {
+  position: relative;
+  margin-top: 15px; }
+  .headerInformation.footericon:before {
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: -13px;
+    content: ''; }
+  .headerInformation.footericon label {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 5px; }
+  .headerInformation.footericon i {
+    margin-right: 10px; }
+    .headerInformation.footericon i:hover {
+      color: #E79A5F !important; }
+
+/*-------------------footer bottm start-------------*/
+.footerBootm {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #2F2F2F;
+  padding: 12px; }
+  .footerBootm .foBottmcont {
+    position: relative; }
+    .footerBootm .foBottmcont p {
+      color: #fff;
+      font-size: 14;
+      line-height: 25px;
+      font-weight: 400;
+      margin-top: 6px; }
+      .footerBootm .foBottmcont p a {
+        color: #E79A5F; }
+  .footerBootm .mainMenu.footerMenu ul li a {
+    text-transform: capitalize;
+    color: #fff;
+    border: none; }
+    .footerBootm .mainMenu.footerMenu ul li a:hover {
+      color: #E79A5F; }

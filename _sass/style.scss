@@ -1,3 +1,34 @@
+@import '../bower_components/susy/sass/susy';
+
+$susy: (
+flow: ltr, // ltr | rtl
+output: float, // float | isolate
+math: fluid, // fluid | static (requires column-width)
+column-width: false, // false | value
+container: 700px, // length or % | auto
+container-position: center, // left | center | right | <length> [*2] (grid padding)
+last-flow: to,
+columns: 12,
+gutters: 1/4,
+gutter-position: after, // before | after | split | inside | inside-static (requires column-width)
+global-box-sizing: border-box, // content-box | border-box (affects inside/inside-static)
+debug: (
+image: show,
+color: rgba(#66f, .25),
+output: background, // background | overlay
+toggle: top left,
+),
+);
+
+$gallery_layout: layout( 12 .125 fluid float after);
+
+$nav_layout: layout( 12 0 fluid float inside);
+
+$golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
+
+
+
+
 /*===================start Top header===========*/
 .headerTop{
     position: relative;
@@ -421,7 +452,55 @@
             &:hover{
                 background: #E79800;
             }
-            
+
         }
     }
+}
+
+/*------------------end about---------------*/
+
+/*-------------------start welcome------------*/
+.wcSingleItem{
+    background: url(../images/courses.jpg) no-repeat center center /cover;
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    height: auto;
+    &:before{
+        width: 100%;
+        height: 100%;
+        background: rgba(19, 104, 170, .8);
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        
+    }
+    .wcSingleContent{
+        position: relative;
+        h2{
+            font-size: 24px;
+            color: #fff;
+            text-align: center!important;
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 36px;
+        }
+        p{
+            font-size: 13px;
+            font-weight: 400;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+        .no-bullet li{
+            color: #fff;
+            list-style: circle;
+            margin-left: 15px;
+            line-height: 22px;
+            font-size: 14px;
+            font-weight: 400;
+            color: #fff;
+        }
+    }
+    
 }

@@ -347,3 +347,42 @@
       transition: all ease 500ms; }
       .aboutUs .abContent a:hover {
         background: #E79800; }
+
+/*------------------end about---------------*/
+/*-------------------start welcome------------*/
+.wcSingleItem {
+  background: url(../images/courses.jpg) no-repeat center center/cover;
+  position: relative;
+  width: 100%;
+  padding: 50px;
+  height: auto; }
+  .wcSingleItem:before {
+    width: 100%;
+    height: 100%;
+    background: rgba(19, 104, 170, 0.8);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0; }
+  .wcSingleItem .wcSingleContent {
+    position: relative; }
+    .wcSingleItem .wcSingleContent h2 {
+      font-size: 24px;
+      color: #fff;
+      text-align: center !important;
+      font-weight: 900;
+      text-transform: uppercase;
+      line-height: 36px; }
+    .wcSingleItem .wcSingleContent p {
+      font-size: 13px;
+      font-weight: 400;
+      color: #fff;
+      margin-bottom: 15px; }
+    .wcSingleItem .wcSingleContent .no-bullet li {
+      color: #fff;
+      list-style: circle;
+      margin-left: 15px;
+      line-height: 22px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #fff; }

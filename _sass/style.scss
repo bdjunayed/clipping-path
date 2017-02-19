@@ -474,7 +474,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         position: absolute;
         left: 0;
         top: 0;
-        
+
     }
     .wcSingleContent{
         position: relative;
@@ -485,6 +485,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
             font-weight: 900;
             text-transform: uppercase;
             line-height: 36px;
+            margin-bottom: 12px;
         }
         p{
             font-size: 13px;
@@ -494,13 +495,115 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         }
         .no-bullet li{
             color: #fff;
-            list-style: circle;
-            margin-left: 15px;
+            margin-left: 8px;
             line-height: 22px;
             font-size: 14px;
             font-weight: 400;
             color: #fff;
+            margin-bottom: 12px;
+        }
+        .wcBtn{
+            margin-top: 30px;
+            a{
+                font-size: 14px;
+                font-weight: 700;
+                color: #fff;
+                text-transform: uppercase;
+                border: 1px solid #fff;
+                padding: 12px 20px;
+                transition: all ease 500ms;
+                border-radius: 4px;
+                &:hover{
+                    background: rgb(231, 152, 0);
+                    border-color: rgb(231, 152, 0);
+                }
+
+            }
         }
     }
-    
+
+}
+.wcSingleItem.wcSingleItem1{
+    background: url(../images/courses.jpg) no-repeat center center /cover;
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    height: auto;
+    &:before{
+        width: 100%;
+        height: 100%;
+        background: rgba(32, 79, 120, .9);
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+
+/*-------------------------start gallery section-----------*/
+.gallerysection{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    .gellaryTitle{
+        position: relative;
+        h1{
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #111;
+            line-height: 46px;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            color: #5D739F;
+            text-transform: capitalize;
+            line-height: 22px;
+            margin-bottom: 8px;
+            position: relative;
+            &:before{
+                background: #F1B300 none repeat scroll 0 0;
+                bottom: 0;
+                content: "";
+                height: 2px;
+                left: 0;
+                margin: 0 auto;
+                position: absolute;
+                right: 80px;
+                top: 40px;
+                width: 40px;
+            }
+            &:after{
+                background: #F1B300 none repeat scroll 0 0;
+                bottom: 0;
+                content: "";
+                height: 2px;
+                left: 80px;
+                margin: 0 auto;
+                position: absolute;
+                right: 0px;
+                top: 40px;
+                width: 40px;
+            }
+        }
+        i{
+            font-size: 18px;
+            color: #F1B300;
+            position: relative;
+        }
+
+    }
+    .gallaryItem{
+        width: 100%;
+        height: auto;
+        position:relative;
+        margin-top: 22px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
 }

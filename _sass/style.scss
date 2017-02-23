@@ -30,6 +30,33 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
 
 
 /*===================start Top header===========*/
+.featureMenufixed{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    left: 0;
+    top: 75px;
+    box-shadow: 1px 0px 3px #ddd;
+    ul li a img{
+        display: none;
+    }
+}
+
+
+.headerMenufixed{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    background: #fafafa;
+    box-shadow: 1px 0px 3px #ddd;
+
+}
+
+
 .headerTop{
     position: relative;
     width: 100%;
@@ -77,12 +104,13 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     }
 }
 
+
 /*-----------------------header top end-----------*/
 /*-----------------------header menu start-----------*/
 .headerMenu{
-    position: relative;
     padding: 26px 0;
 }
+
 .logo1{
     width: 100%;
     height: auto;
@@ -685,7 +713,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         width: 100%;
         background: #fff;
         height: auto;
-        z-index: 999;
+        z-index: 1;
         padding: 50px;
 
         .benelistItem{
@@ -766,7 +794,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
             left: 128px;
             opacity: 0.2;
             position: absolute;
-            top: 0;
+            top: 0px;
             width: 100%;
         }
 
@@ -776,7 +804,6 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
 /*------------------------end benefits fature flow----------------------*/
 /*------------------------feature menu start----------------------*/
 .featureMenu{
-    position: relative;
     width: 100%;
     height: auto;
     background: #FAFAFA;
@@ -801,10 +828,16 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
                 white-space: nowrap;
 
             }
+
             &:hover{
                 background: #F5F5F5;
                 box-shadow: 0 4px 0 #003366;
+
             }
+
+        }
+        .active{
+            box-shadow: 0 4px 0 #003366;
         }
     }
 
@@ -846,6 +879,83 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
 /*------------------------start feature service2----------------------*/
 .featureService2{
     background: #F5F5F5;
-    
+
 }
 /*------------------------end feature service2----------------------*/
+
+/*------------------------start feature team section----------------------*/
+.feature-team{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #F5F5F5;
+    padding: 80px 0;
+    .featureTeamTitle{
+        position: relative;
+        h2{
+            color: #333;
+            font-size: 40px;
+            font-weight: 300;
+            line-height: 50px;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+        p{
+            font-size: 24px;
+            font-weight: 400;
+            font-style: italic;
+            text-align: center;
+            line-height: 36px;
+            padding: 0 15px;
+            background: #f5f5f5;
+            position: relative;
+            &:before{
+                position: absolute;
+                left: 0;
+                top: 17px;
+                width: 38%;
+                height: 2px;
+                background: #DA4453;
+                content: '';
+
+            }
+            &:after{
+                position: absolute;
+                right: 0;
+                top: 17px;
+                width: 38%;
+                height: 2px;
+                background: #DA4453;
+                content: '';
+
+            }
+        }
+    }
+    .featureTeamItem{
+        position: relative;
+        margin-top: 40px;
+        img{
+            width: auto;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        h3{
+            clear: both;
+            color: #666;
+            font-family: "Lato",sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 27px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            color: #888;
+            line-height: 24px;
+
+        }
+    }
+}
+/*------------------------end feature team section----------------------*/

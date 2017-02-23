@@ -1,0 +1,70 @@
+@media (min-width: 600px) and (max-width: 900px) {
+  .headerTop {
+    background: #174873 none repeat scroll 0 0;
+    display: none;
+    height: auto;
+    padding: 10px 0;
+    position: relative;
+    width: 100%; }
+  .headerMenu .logo1 img {
+    width: 50%;
+    margin-bottom: 20px; }
+  .headerMenu .mainMenu ul li .submenu {
+    left: 20%; }
+  .sliderSec {
+    display: none; }
+  .aboutUs .abContent a {
+    text-align: center;
+    margin-left: 20px; }
+  .benefitSec {
+    padding: 20px 0 !important;
+    overflow: hidden; }
+    .benefitSec .benefitsTitle h1 {
+      font-size: 29px !important;
+      margin-bottom: 10px !important; }
+    .benefitSec .singleBenefit {
+      margin-bottom: 15px !important; }
+  .benefits_featureflow .benefits_featureflowStep a p {
+    margin-bottom: 17px; }
+  .featureMenu .mainFeatureMenu ul li {
+    width: 70px;
+    height: auto;
+    padding: 12px;
+    margin-right: 20px; }
+    .featureMenu .mainFeatureMenu ul li a {
+      font-size: 12px; }
+      .featureMenu .mainFeatureMenu ul li a img {
+        width: 50px;
+        height: auto; }
+  .featureMenufixed {
+    top: 160px; }
+  .featureService1 {
+    padding: 40px; }
+    .featureService1 .featureSerContent {
+      padding-top: 0px !important; }
+      .featureService1 .featureSerContent h2 {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: -25px !important; }
+      .featureService1 .featureSerContent p {
+        padding-right: 0;
+        margin-bottom: 12px; }
+    .featureService1 .featureSerImg {
+      margin-bottom: 12px; }
+  .feature-team {
+    padding: 40px 0; }
+    .feature-team .featureTeamTitle h2 {
+      font-size: 30px;
+      margin-bottom: 20px !important; }
+    .feature-team .featureTeamTitle p {
+      font-size: 22px; }
+      .feature-team .featureTeamTitle p:before {
+        width: 28%; }
+      .feature-team .featureTeamTitle p:after {
+        width: 28%; }
+  .footer .leftWidget {
+    margin-bottom: 20px; }
+  .footerBootm .foBottmcont p {
+    font-size: 13px; }
+  .footerBootm .mainMenu.footerMenu ul li a {
+    font-size: 13px; } }

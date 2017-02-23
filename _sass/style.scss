@@ -34,12 +34,26 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     position: fixed;
     width: 100%;
     height: auto;
-    z-index: 999;
+    z-index: 1;
     left: 0;
-    top: 0;
+    top: 75px;
+    box-shadow: 1px 0px 3px #ddd;
     ul li a img{
         display: none;
     }
+}
+
+
+.headerMenufixed{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    background: #fafafa;
+    box-shadow: 1px 0px 3px #ddd;
+    
 }
 
 
@@ -93,9 +107,9 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
 /*-----------------------header top end-----------*/
 /*-----------------------header menu start-----------*/
 .headerMenu{
-    position: relative;
     padding: 26px 0;
 }
+
 .logo1{
     width: 100%;
     height: auto;
@@ -698,7 +712,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         width: 100%;
         background: #fff;
         height: auto;
-        z-index: 999;
+        z-index: 1;
         padding: 50px;
 
         .benelistItem{

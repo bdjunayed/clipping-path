@@ -30,6 +30,24 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
 
 
 /*===================start Top header===========*/
+
+.MobileMenu1 {
+    cursor: pointer !important;
+    display: block;
+    height: 26px;
+    line-height: 0.2;
+    width: 30px;
+    position: absolute;
+    top: 13px;
+    right: 17px;
+    z-index: 9999;
+    span {
+        background: #000;
+        display: inline-block;
+        height: 2px;
+        width: 100%;
+    }
+}
 .featureMenufixed{
     position: fixed;
     width: 100%;
@@ -959,3 +977,4 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     }
 }
 /*------------------------end feature team section----------------------*/
+

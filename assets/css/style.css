@@ -1,4 +1,20 @@
 /*===================start Top header===========*/
+.MobileMenu1 {
+  cursor: pointer !important;
+  display: block;
+  height: 26px;
+  line-height: 0.2;
+  width: 30px;
+  position: absolute;
+  top: 13px;
+  right: 17px;
+  z-index: 9999; }
+  .MobileMenu1 span {
+    background: #000;
+    display: inline-block;
+    height: 2px;
+    width: 100%; }
+
 .featureMenufixed {
   position: fixed;
   width: 100%;

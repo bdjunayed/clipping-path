@@ -1,4 +1,272 @@
-@media (min-width: 600px) and (max-width:900px){
+@media (min-width: 320px) and (max-width: 480px) {
+    .headerTop{
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
+
+    .headerMenu {
+        padding: 16px 0;
+        .logo1 img{
+            width: 50%;
+        }
+        .MobileMenu1 {
+            cursor: pointer !important;
+            display: block;
+            height: auto;
+            line-height: 0.2;
+            position: absolute;
+            right: 23px;
+            top: -22px;
+            width: 30px;
+            z-index: 9999;
+        }
+        .mainMenu ul{
+            background: #111;
+            padding: 10px;
+            li {
+                display:block;
+                margin-right: 0;
+                margin-top: 0;
+                padding-bottom: 8px;
+                text-align: left;
+            }
+            .submenu{
+                left: 60px;
+                top: 40px;
+            }
+            a{
+                color: #fff;
+            }
+
+        }
+
+    }
+    .sliderSec{
+        display: none;
+    }
+    .aboutUs{
+        .abContent{
+            h1 {
+                font-size: 18px;
+
+            }
+            h4{
+                font-size: 13px;
+            }
+            p{
+                font-size: 12px;
+            }
+            a{
+
+                font-size: 10px;
+                margin-left: 5px;
+                padding: 9px 17px;
+
+            }
+        }
+    }
+    .benefitSec {
+        padding: 27px 0;
+        .benefitsTitle h1 {
+            color: #333;
+            font-size: 26px;
+            font-weight: 300;
+            line-height: 50px;
+            margin-bottom: 30px;
+        }
+        .singleBenefit h3{
+            font-size: 16px;
+        }
+    }
+    .mainFeatureMenu{
+        display: none;
+    }
+    .benefitsListSec .mainbenefitList .benelistItem .benContent p {
+        color: #888;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-left: 38px;
+    }
+    .benefits_featureflow .featureflowStep::before {
+        display: none;
+    }
+    .benefits_featureflow .benefits_featureflowStep a p {
+
+        margin-bottom: 18px;
+
+    }
+    .featureService1{
+        padding: 0;
+    }
+    .featureService1 .featureSerContent {
+        padding-top: 20px;
+        h2{
+            color: #333;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            padding: 0 0 40px;
+        }
+        p{
+            color: #777;
+            font-size: 13px;
+            line-height: 26px;
+            padding-right: 0;
+            margin-bottom: 5px;
+        }
+    }
+    .featureService1 .featureSerImg {
+        height: auto;
+        margin: 19px 0;
+        width: 100%;
+    }
+    .margin-left50{
+        margin-left: 0;
+    }
+    .feature-team {
+        padding: 23px 0;
+        .featureTeamTitle h2 {
+            font-size: 25px;
+            margin-bottom: 12px;
+        }
+        .featureTeamTitle p{
+            font-size: 15px;
+        }
+        .featureTeamTitle p::after {
+            width: 25%;
+        }
+        .featureTeamTitle p::before {
+            width: 25%;
+        }
+    }
+    .col-xs-4{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width:767px){
+    .headerTop {
+        background: #174873 none repeat scroll 0 0;
+        height: auto;
+        margin-top: 59px;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+    #menu{
+        display: none;
+    }
+    .headerMenu {
+        padding: 12px 0;;
+        .logo1 img {
+            height: 100%;
+            width: 50%;
+        }
+        .MobileMenu1 {
+            top: -32px;
+        }
+        .mainMenu {
+            ul{
+                background: #111;
+                padding: 10px;
+                li {
+                    display:block;
+                    margin-right: 0;
+                    margin-top: 0;
+                    padding-bottom: 8px;
+                    text-align: left;
+                }
+                .submenu{
+                    left: 60px;
+                    top: 40px;
+                }
+                a{
+                    color: #fff;
+                }
+            }
+        }
+
+        .aboutUs .abContent a {
+            background: #174873 none repeat scroll 0 0;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 13px;
+            font-weight: 400;
+            margin-left: 2px;
+            padding: 15px 20px;
+            text-transform: uppercase;
+            transition: all 500ms ease 0s;
+        }
+        .featureMenu .mainFeatureMenu ul li {
+            padding: 5px;
+            width: 72px;
+            a{
+                font-size: 9px;
+            }
+        }
+        .featureMenufixed {
+            top: 58px;
+        }
+        .benefitsListSec .mainbenefitList .benelistItem .benContent p {
+            margin-left: 29px;
+        }
+        .featureMenu .mainFeatureMenu ul li {
+            padding: 10px;
+            width: 72px;
+        }
+        .featureMenufixed{
+            top: 50px;
+        }
+        .benefits_featureflow .featureflowStep::before {
+            display: none;
+        }
+        .benefits_featureflow .benefits_featureflowStep a p {
+
+            margin-bottom: 18px;
+        }
+        .featureService1 {
+            height: auto;
+            padding: 10px;
+            position: relative;
+            width: 100%;
+        }
+        .featureService1 .featureSerContent {
+            padding-top: 10px;
+            position: relative;
+        }
+        .featureService1 .featureSerContent h2 {
+            padding-bottom: 0;
+            font-size: 32px;
+        }
+        .featureService1 .featureSerContent p {
+            color: #777;
+            font-size: 13px;
+            line-height: 26px;
+            padding-right: 0px;
+            margin-bottom: 19px;
+        }
+        .featureService1 .featureSerImg img {
+            padding: 12px 0;
+        }
+        .feature-team .featureTeamTitle h2 {
+            font-size: 32px;
+            margin-bottom: 22px;
+        }
+        .feature-team .featureTeamTitle p::after {
+            width: 25%;
+        }
+        .feature-team .featureTeamTitle p::before {
+            width: 25%;
+        }
+    }
+}
+
+
+@media (min-width: 768px) and (max-width:1024px){
     .headerTop {
         background: #174873 none repeat scroll 0 0;
         display: none;
@@ -8,6 +276,10 @@
         width: 100%;
     }
     .headerMenu{
+        .logo1{
+            width: 70%;
+            display: inline-block;
+        }
         .logo1 img{
             width: 50%;
             margin-bottom: 20px;
@@ -20,13 +292,28 @@
         }
     }
     .sliderSec{
-        display: none;
+      
     }
-    .aboutUs{
-        .abContent a{
-            text-align: center;
-            margin-left: 20px;
-        } 
+
+    .aboutUs .abContent1 h1{
+        color: #174873;
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 56px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        span{
+            color: #E79800;
+
+        }
+    }
+    .aboutUs .abContent h1 {
+        color: #174873;
+        display: none;
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 56px;
+        text-transform: uppercase;
     }
     .benefitSec{
         padding: 20px 0 !important;
@@ -58,13 +345,13 @@
 
             }
         }
-      
+
     }
-      .featureMenufixed {
-        
-            top: 160px;
-          
-        }
+    .featureMenufixed {
+
+        top: 160px;
+
+    }
     .featureService1{
         padding: 40px;
         .featureSerContent{

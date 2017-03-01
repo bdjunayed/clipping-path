@@ -196,13 +196,15 @@
     position: relative;
     width: 100%; }
   .headerMenu .logo1 {
-    width: 70%;
+    width: 100%;
     display: inline-block; }
   .headerMenu .logo1 img {
-    width: 50%;
+    width: 100%;
     margin-bottom: 20px; }
   .headerMenu .mainMenu ul li .submenu {
     left: 20%; }
+  .sliderSec {
+    padding-top: 150px; }
   .aboutUs .abContent1 h1 {
     color: #174873;
     font-size: 33px;
@@ -229,6 +231,8 @@
       margin-bottom: 15px !important; }
   .benefits_featureflow .benefits_featureflowStep a p {
     margin-bottom: 17px; }
+  .benefits_featureflow .featureflowStep::before {
+    display: none; }
   .featureMenu .mainFeatureMenu ul li {
     width: 70px;
     height: auto;
@@ -239,6 +243,11 @@
       .featureMenu .mainFeatureMenu ul li a img {
         width: 50px;
         height: auto; }
+  .featureMenu .mainFeatureMenu ul li {
+    height: auto;
+    margin-right: 20px;
+    padding: 12px;
+    width: 96px; }
   .featureMenufixed {
     top: 160px; }
   .featureService1 {
@@ -254,6 +263,11 @@
         margin-bottom: 12px; }
     .featureService1 .featureSerImg {
       margin-bottom: 12px; }
+  .margin-left50 {
+    margin: 0; }
+  .featureService1 .featureSerImg img {
+    height: 471px;
+    width: 100%; }
   .feature-team {
     padding: 40px 0; }
     .feature-team .featureTeamTitle h2 {
@@ -265,6 +279,8 @@
         width: 28%; }
       .feature-team .featureTeamTitle p:after {
         width: 28%; }
+  .featureMenufixed {
+    top: 151px; }
   .footer .leftWidget {
     margin-bottom: 20px; }
   .footerBootm .foBottmcont p {

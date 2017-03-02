@@ -144,8 +144,9 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         display: inline-block;
         margin-right: 14px;
         margin-top: 9px;
-        padding-bottom: 8px;
+        padding-bottom: 15px;
         cursor: pointer;
+        position: relative;
 
         a{
             font-size: 15px;
@@ -157,7 +158,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
             -moz-transition:all ease 600ms;
             -webkit-transition:all ease 600ms;
             -o-transition:all ease 600ms;
-            padding-bottom: 10px;
+            padding-bottom: 20px;
             &:hover{
                 color: #E79800;
                 border-bottom: 2px solid #E79800;
@@ -237,7 +238,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     li:hover .submenu {
         visibility: visible;
         opacity: 1;
-        top: 60px;
+        top: 55px;
     }
     .submenu li {
         padding: 12px 0 0 30px;
@@ -322,7 +323,9 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         }
     }
 }
-
+.leftWidget22{
+    margin-top: 50px;
+}
 .officehour li{
     list-style: none;
     display: block;

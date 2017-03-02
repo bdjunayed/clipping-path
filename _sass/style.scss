@@ -176,7 +176,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         right: 20px;
         top: 30px;
         box-shadow: 0 0 12px #ddd;
-        
+
     }
     .userBox{
         background: #f1f1f1;
@@ -189,8 +189,8 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         z-index: 1;
         height: auto;
         display: none;
-        
-        
+
+
         .usern{
             font-size: 14px;
             text-transform: uppercase;
@@ -198,7 +198,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         .usBtn{
             padding: 12px 0;
         }
-        
+
         .uname{
             font-size: 14px;
             font-weight: 400;
@@ -1028,3 +1028,557 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
 }
 /*------------------------end feature team section----------------------*/
 
+
+.DesignSlider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.DesignHead {
+    padding: 50px 0;
+    h2 {
+        color: #0078ae;
+        font-size: 55px;
+        font-weight: 700;
+        letter-spacing: -1px;
+    }
+    p {
+        color: #5a6063;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.7;
+        padding-top: 21px;
+    }
+}
+
+.DesignSliderCon {
+    height: 100%;
+    padding: 40px 0;
+    position: relative;
+    width: 100%;
+    h2 {
+        color: #0fa2da;
+        font-size: 45px;
+        font-weight: 300;
+    }
+    p {
+        color: #5a6063;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.4;
+        padding-top: 24px;
+    }
+}
+
+.DeSliderConImage {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.carousel-control {
+    &.left, &.right {
+        background: transparent;
+        display: inline-block;
+    }
+}
+
+.DesignArrowRightCarosul1 {
+    width: 60px;
+    height: 128px;
+    display: block;
+    top: 33%;
+    &:after {
+        position: absolute;
+        content: '';
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../images/arrow-right.svg) no-repeat center (center / cover);
+    }
+}
+
+.DesignleftLeftCarosul1 {
+    display: block;
+    height: 128px;
+    top: 33%;
+    width: 128px;
+    &:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../images/arrow-left.svg) no-repeat center (center / cover);
+    }
+}
+
+.DesignTab {
+    padding: 50px 0;
+}
+
+.TabMenu {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    ul {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        &:before {
+            background: transparent linear-gradient(to bottom, #d5d5d5 0, #ddd 10%, #e5e5e5 14%, #f1f1f1 29%, #f6f6f6 38%, #f8f8f8 48%, #f8f8f8 81%, #f6f6f6 90%, #f1f1f1 100%) repeat scroll 0 0;
+            content: "";
+            height: 22px;
+            left: 0;
+            margin: 0 auto;
+            position: absolute;
+            right: 0;
+            top: 77px;
+            width: 60%;
+            z-index: 1;
+        }
+        li {
+            display: inline-block;
+            padding: 192px 0 0;
+            position: relative;
+            vertical-align: top;
+            width: 33%;
+            z-index: 2;
+            a {
+                color: #fff;
+                p {
+                    color: #0078ae;
+                    display: inline-block;
+                    font: 24px/1.1 roboto-bold-webfont,sans-serif;
+                    text-align: center;
+                }
+            }
+            &.active {
+                .DspanFirst {
+                    strong {
+                        height: 176px;
+                        width: 176px;
+                    }
+                    em {
+                        background: #88ba00 none repeat scroll 0 0;
+                        color: #fff;
+                        height: 142px;
+                        line-height: 142px;
+                        width: 142px;
+                    }
+                }
+                p {
+                    color: #88ba00;
+                }
+                .DeArrowIndecator {
+                    left: 50%;
+                }
+            }
+            &.active-1 .DeProgressIndecator {
+                width: 66%;
+            }
+            &.active-0 .DeArrowIndecator.active {
+                left: 34%;
+            }
+        }
+    }
+}
+
+.DspanFirst {
+    height: 176px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 176px;
+    strong {
+        background: #f6f6f6 none repeat scroll 0 0;
+        border-radius: 50%;
+        bottom: 0;
+        box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2) inset;
+        content: "";
+        height: 152px;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transition: all 0.2s ease 0s;
+        width: 152px;
+        z-index: 1;
+    }
+    em {
+        background: #0078ae none repeat scroll 0 0;
+        border-radius: 50%;
+        bottom: 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        color: #fff;
+        font: 57px/118px roboto-bold-webfont, sans-serif;
+        height: 118px;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 0;
+        transition: all 0.2s ease 0s;
+        width: 118px;
+        z-index: 2;
+    }
+}
+
+.TabProgress {
+    background: #0078ae none repeat scroll 0 0;
+    border-radius: 4px;
+    height: 17px;
+    margin: 0 0 60px;
+    position: relative;
+}
+
+.DeProgressIndecator {
+    background: #88ba00 none repeat scroll 0 0;
+    border-radius: 4px;
+    display: block;
+    height: 17px;
+    transition: width 0.4s ease 0s;
+    width: 33.33%;
+}
+
+.DeArrowIndecator {
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-top: 16px solid #88ba00;
+    height: 0;
+    margin-left: -22px;
+    position: absolute;
+    top: 100%;
+    transition: left 0.4s ease 0s;
+    width: 0;
+    left: 17%;
+}
+
+.Pad45 {
+    padding: 45px 0;
+}
+
+.DesignSliderTwo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.DesingSliderTwoHeading {
+    padding: 50px 0;
+    h2 {
+        font-size: 55px;
+        color: #0078ae;
+        letter-spacing: -1px;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+.DesingSliderTwoImage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    img {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+.DesignSlideTwo {
+    .owl-prev {
+        background: transparent url(../images/arrow-left.svg) no-repeat scroll center (center / cover);
+        height: 60px;
+        left: 33px;
+        position: absolute;
+        top: 130px;
+        width: 60px;
+        i {
+            font-size: 25px;
+            margin-top: 14px;
+        }
+    }
+    .owl-next {
+        position: absolute;
+        right: 33px;
+        top: 130px;
+        width: 60px;
+        height: 60px;
+        background: url(../images/arrow-right.svg) no-repeat center (center / cover);
+        i {
+            font-size: 25px;
+            margin-top: 14px;
+        }
+    }
+    .owl-pagination {
+        border-bottom: 3px solid #869791;
+        height: auto;
+        position: relative;
+        width: 100%;
+    }
+    .owl-page {
+        border-right: 1px solid #ddd;
+    }
+    .owl-theme .owl-controls .owl-buttons div {
+        background: transparent none repeat scroll 0 0;
+        border: 1px solid #f7465b;
+        border-radius: 0;
+        color: #fff;
+        display: inline-block;
+        font-size: 12px;
+        margin: 0 7px;
+        opacity: 1;
+        padding: 7px 15px;
+        transition: all 0.8s ease 0s;
+    }
+    &.owl-theme .owl-controls {
+        margin-top: 43px;
+        text-align: center;
+        .owl-page {
+            span {
+                background: url(../images/icon.jpg) no-repeat center (center / cover);
+                border-radius: 20px;
+                display: block;
+                height: 52px;
+                width: 146px;
+                margin: 5px 7px;
+                opacity: 1;
+                position: relative;
+                background-position: -36px 0;
+            }
+            &.active span {
+                &::before {
+                    border-left: 20px solid transparent;
+                    border-right: 20px solid transparent;
+                    border-top: 14px solid #0fa2da;
+                    content: "";
+                    left: 50%;
+                    margin-left: -20px;
+                    position: absolute;
+                    bottom: -28px;
+                }
+                &:after {
+                    background: #0fa2da none repeat scroll 0 0;
+                    bottom: -14px;
+                    content: "";
+                    height: 3px;
+                    left: -7px;
+                    position: absolute;
+                    width: 162px;
+                }
+            }
+        }
+    }
+}
+
+.DSliderThree {
+    .owl-controls .owl-page, .owl-controls .owl-buttons div {
+        cursor: pointer;
+        display: inline-block;
+    }
+    .owl-prev {
+        left: 13px;
+        position: absolute;
+        top: 170px;
+        &:hover {
+            box-shadow: 0 3px 10px white, 3px 0 3px 0 rgba(0, 0, 0, 0.1);
+        }
+        i {
+            font-size: 60px;
+            color: #60c1f0;
+        }
+    }
+    .owl-next {
+        right: 13px;
+        position: absolute;
+        top: 170px;
+        &:hover {
+            box-shadow: 0 3px 10px white, -3px 0 3px 0 rgba(0, 0, 0, 0.1);
+        }
+        i {
+            font-size: 60px;
+            color: #60c1f0;
+        }
+    }
+    &.owl-theme .owl-controls {
+        margin: 10px 0 67px;
+        text-align: center;
+        .owl-buttons div {
+            background: transparent;
+        }
+        .owl-page span {
+            background: transparent none repeat scroll 0 0;
+            border-radius: 50%;
+            display: block;
+            height: 24px;
+            margin: 5px 12px;
+            opacity: 0.5;
+            width: 24px;
+            border: 2px solid #ddd;
+        }
+        .active span {
+            border-color: #0fa2da;
+            opacity: 1;
+            position: relative;
+            &:after {
+                background: #0fa2da none repeat scroll 0 0;
+                border-radius: 50%;
+                bottom: 0;
+                content: "";
+                height: 12px;
+                left: 1px;
+                margin: auto;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 12px;
+            }
+        }
+    }
+}
+
+.DiscusButtonSec {
+    height: 100%;
+    padding: 20px 0 80px;
+    position: relative;
+    width: 100%;
+}
+
+.DiscusBtnCon {
+    border: 1px solid #ddd;
+    height: 100%;
+    padding: 50px 92px;
+    width: 100%;
+    position: relative;
+    border-radius: 4px;
+    &:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 3px;
+        background: #0fa2da;
+    }
+    h2 {
+        color: #0fa2da;
+        display: inline-block;
+        font-size: 42px;
+        font-weight: 700;
+    }
+    .DiscusBTn {
+        background: #88ba00 none repeat scroll 0 0;
+        border-radius: 9px;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 700;
+        height: 57px;
+        margin-left: 42px;
+        padding: 15px 43px;
+        position: relative;
+        text-transform: uppercase;
+        width: 246px;
+        display: inline-block;
+        z-index: 999;
+        overflow: hidden;
+        &:before {
+            position: absolute;
+            content: '';
+            width: 246px;
+            height: 10px;
+            border-radius: 9px;
+            left: 0;
+            top: 0;
+            background: rgba(157, 211, 10, 0.4);
+            transition: all ease 600ms;
+            visibility: hidden;
+            opacity: 0;
+        }
+        &:hover:before {
+            visibility: visible;
+            opacity: 1;
+            transition: all 0.25s cubic-bezier(.66,.36,.17,.91);
+            height: 57px;
+            top: 57px;
+        }
+    }
+    > a > i {
+        padding-left: 19px;
+    }
+}
+
+.DPageSingup {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-top: 2px solid #e8e8e8;
+}
+
+.DePSingUpBtn {
+    padding: 60px 0 0;
+    h2 {
+        color: #0078ae;
+        display: block;
+        font-size: 36px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+}
+
+.DePageInputGroup {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.DesignUpInput {
+    background: #eee none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    height: 100%;
+    padding: 10px 0 10px 28px;
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.DesignUpBtn {
+    background: #0fa2da none repeat scroll 0 0;
+    border-radius: 9px;
+    color: #fff;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 700;
+    overflow: hidden;
+    padding: 12px 30px 11px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 0;
+    transition: all ease 600ms;
+    &:hover {
+        background: #88ba00;
+        color: #fff;
+    }
+    i {
+        font-size: 14px;
+        padding-left: 8px;
+    }
+}

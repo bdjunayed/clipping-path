@@ -196,7 +196,7 @@
     position: relative;
     width: 100%; }
   .headerMenu .logo1 {
-    width: 100%;
+    width: 50%;
     display: inline-block; }
   .headerMenu .logo1 img {
     width: 100%;
@@ -249,7 +249,7 @@
     padding: 12px;
     width: 96px; }
   .featureMenufixed {
-    top: 160px; }
+    top: 168px; }
   .featureService1 {
     padding: 40px; }
     .featureService1 .featureSerContent {

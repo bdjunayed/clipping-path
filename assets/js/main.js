@@ -11,10 +11,34 @@ $(document).ready(function () {
     });
     /* feature menu fixed*/
 
-
+     /*DesignPage Slider Three Start here*/
+    $('.DSliderThree').owlCarousel({
+        items: 1,
+        loop: true,
+        nav: false,
+        dots: false,
+        pagination: true,
+        touchDrag: false,
+        responsiveClass: true,
+        navigationText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
+        navigation: true,
+        autoPlay: false,
+        mouseDrag: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            640: {
+                items: 3
+            },
+            1000: {
+                items: 6
+            }
+        }
+    });
     /*MobileMenu Start By Shagor */
     $('.scrolls a').on('click', function () {
-        $('html, body').animate({scrollTop: $(this.hash).offset().top - (0)}, 1000);
+        $('html, body').animate({scrollTop: $(this.hash).offset().top - (100)}, 1000);
         return false;
     });
 

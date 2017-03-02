@@ -1585,3 +1585,62 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         padding-left: 8px;
     }
 }
+
+/*
+-----------------------------clipping page layout----------------------*/
+.clipSecService1{
+    position: relative;
+    background: #fafafa;
+    padding: 20px 0;
+    .secservWedMenu h2{
+        color: #0fa2da;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        padding-top: 20px;
+        line-height: 20px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        position: relative;
+        &:before{
+            width: 60px;
+            height: 2px;
+            background: #0fa2da;
+            position: absolute;
+            left: 0;
+            top: 50px;
+            content: '';
+            margin: 0 auto;
+        }
+    }
+    ul li{
+
+        display:block;
+        padding: 10px 0;
+        a{
+            font-size: 15px;
+            padding-top: 20px;
+            color: #a3a3a3;
+            text-transform: capitalize;
+            &:hover{
+                color: #E79800;
+            }
+        }
+    }
+    .secServwedCon{
+
+        h2{
+            color: #181818;
+            font-size: 27px;
+            font-weight: 700;
+            letter-spacing: 0;
+            padding: 7px 0 20px;
+            text-transform: none;
+        }
+        p{
+            color: #727272;
+            line-height: 1.7;
+            font-size: 14px;
+        }
+    }
+}

@@ -31,6 +31,12 @@
                 margin-top: 0;
                 padding-bottom: 8px;
                 text-align: left;
+                a{
+                    color: #fff;
+                    &:hover{
+                        border-bottom: none;
+                    }
+                }
             }
             .sercIcon i{
                 color: #fff;
@@ -40,11 +46,13 @@
             }
             .submenu{
                 left: 60px;
-                top: 40px;
+                top: 30px;
+                li a{
+                    color: #333;
+                }
+                
             }
-            a{
-                color: #fff;
-            }
+            
 
         }
 
@@ -230,7 +238,7 @@
         }
         .mainMenu {
             ul{
-                background: #111;
+                background: #fff;
                 padding: 10px;
                 li {
                     display:block;
@@ -238,76 +246,83 @@
                     margin-top: 0;
                     padding-bottom: 8px;
                     text-align: left;
+                    color: #fff;
+                    a{
+                        color: #fff !important;
+                    }
                 }
                 .submenu{
                     left: 60px;
                     top: 40px;
+                    li a{
+
+                        color: #fff !important;
+
+                    }
                 }
-                a{
-                    color: #fff;
-                }
+
             }
         }
-
-        .aboutUs .abContent a {
-            background: #174873 none repeat scroll 0 0;
-            border-radius: 4px;
-            color: #fff;
-            font-size: 13px;
-            font-weight: 400;
-            margin-left: 2px;
-            padding: 15px 20px;
-            text-transform: uppercase;
-            transition: all 500ms ease 0s;
-        }
-        .featureMenu {
-            background: #fafafa none repeat scroll 0 0;
-            display: none !important;
-            height: auto;
-            width: 100%;
-        }
-        .benefits_featureflow .featureflowStep::before {
-            display: none;
-        }
-        .benefits_featureflow .benefits_featureflowStep a p {
-
-            margin-bottom: 18px;
-        }
-        .featureService1 {
-            height: auto;
-            padding: 10px;
-            position: relative;
-            width: 100%;
-        }
-        .featureService1 .featureSerContent {
-            padding-top: 10px;
-            position: relative;
-        }
-        .featureService1 .featureSerContent h2 {
-            padding-bottom: 0;
-            font-size: 32px;
-        }
-        .featureService1 .featureSerContent p {
-            color: #777;
-            font-size: 13px;
-            line-height: 26px;
-            padding-right: 0px;
-            margin-bottom: 19px;
-        }
-        .featureService1 .featureSerImg img {
-            padding: 12px 0;
-        }
-        .feature-team .featureTeamTitle h2 {
-            font-size: 32px;
-            margin-bottom: 22px;
-        }
-        .feature-team .featureTeamTitle p::after {
-            width: 25%;
-        }
-        .feature-team .featureTeamTitle p::before {
-            width: 25%;
-        }
     }
+    .aboutUs .abContent a {
+        background: #174873 none repeat scroll 0 0;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 400;
+        margin-left: 2px;
+        padding: 15px 20px;
+        text-transform: uppercase;
+        transition: all 500ms ease 0s;
+    }
+    .featureMenu {
+        background: #fafafa none repeat scroll 0 0;
+        display: none !important;
+        height: auto;
+        width: 100%;
+    }
+    .benefits_featureflow .featureflowStep::before {
+        display: none;
+    }
+    .benefits_featureflow .benefits_featureflowStep a p {
+
+        margin-bottom: 18px;
+    }
+    .featureService1 {
+        height: auto;
+        padding: 10px;
+        position: relative;
+        width: 100%;
+    }
+    .featureService1 .featureSerContent {
+        padding-top: 10px;
+        position: relative;
+    }
+    .featureService1 .featureSerContent h2 {
+        padding-bottom: 0;
+        font-size: 32px;
+    }
+    .featureService1 .featureSerContent p {
+        color: #777;
+        font-size: 13px;
+        line-height: 26px;
+        padding-right: 0px;
+        margin-bottom: 19px;
+    }
+    .featureService1 .featureSerImg img {
+        padding: 12px 0;
+    }
+    .feature-team .featureTeamTitle h2 {
+        font-size: 32px;
+        margin-bottom: 22px;
+    }
+    .feature-team .featureTeamTitle p::after {
+        width: 25%;
+    }
+    .feature-team .featureTeamTitle p::before {
+        width: 25%;
+    }
+
 }
 
 
@@ -337,7 +352,7 @@
         }
     }
     .sliderSec{
-        padding-top: 150px;
+        padding-top: 0px;
     }
 
     .aboutUs .abContent1 h1{

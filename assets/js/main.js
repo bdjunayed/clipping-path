@@ -1,12 +1,12 @@
 $(document).ready(function () {
     /* feature menu fixed*/
-    $(window).on('scroll', function () {
-        if ($(window).scrollTop() > 100, 1000)
+        $(window).on('scroll', function () {
+        if ($(window).scrollTop() > 40)
         {
-            $(".headerMenu").addClass('headerMenufixed');
+            $(".hMenu").addClass('headerMenufixed');
         } else
         {
-            $(".headerMenu").removeClass('headerMenufixed');
+            $(".hMenu").removeClass('headerMenufixed');
         }
     });
     /* feature menu fixed*/
@@ -37,7 +37,7 @@ $(document).ready(function () {
         }
     });
     /*MobileMenu Start By Shagor */
-    $('.scrolls a').on('click', function () {
+   $('.scrolls a').on('click', function () {
         $('html, body').animate({scrollTop: $(this.hash).offset().top - (100)}, 1000);
         return false;
     });
@@ -71,9 +71,12 @@ $(document).ready(function () {
         });
 
     }
+    
+    new WOW().init();
+    
     /* feature menu fixed*/
     $(window).on('scroll', function () {
-        if ($(window).scrollTop() > 3200)
+        if ($(window).scrollTop() > 3600)
         {
             $(".featureMenu").addClass('featureMenufixed');
         } else

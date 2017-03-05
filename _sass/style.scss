@@ -54,7 +54,8 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     height: auto;
     z-index: 1;
     left: 0;
-    top: 91px;
+    top: 63px;
+    transition: all ease 500ms;
     box-shadow: 1px 0px 3px #ddd;
     ul li a img{
         display: none;
@@ -68,6 +69,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     height: auto;
     z-index: 999;
     left: 0;
+    padding: 9px 0;
     top: 0;
     background: #fafafa;
     box-shadow: 1px 0px 3px #ddd;
@@ -81,6 +83,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     height: auto;
     background: #174873;
     padding: 10px 0;
+    margin-bottom: 83px;
 }
 .mainItemHeader{
     margin-left: 78px;
@@ -127,133 +130,137 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
 /*-----------------------header menu start-----------*/
 .headerMenu{
     padding: 26px 0;
-}
-
-.logo1{
+    left: 0;
+    top: 32px;
     width: 100%;
     height: auto;
-    overflow: hidden;
-    img{
-        width: 100%;
-        height: 100%;
-    }
-}
-.mainMenu{
-    position: relative;
-    ul li{
-        display: inline-block;
-        margin-right: 14px;
-        margin-top: 9px;
-        padding-bottom: 15px;
-        cursor: pointer;
-        position: relative;
+    z-index: 111;
+    position: absolute;
+    background: #fff;
 
-        a{
-            font-size: 15px;
-            font-weight: 400;
-            text-transform: uppercase;
-            color: #174873;
-            text-decoration: none;
-            transition:all ease 600ms;
-            -moz-transition:all ease 600ms;
-            -webkit-transition:all ease 600ms;
-            -o-transition:all ease 600ms;
-            padding-bottom: 20px;
-            &:hover{
-                color: #E79800;
-                border-bottom: 2px solid #E79800;
+    .logo1{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .mainMenu{
+        position: relative;
+        ul li{
+            display: inline-block;
+            margin-right: 14px;
+            margin-top: 9px;
+            padding-bottom: 15px;
+            cursor: pointer;
+            position: relative;
+
+            a{
+                font-size: 15px;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: #174873;
+                text-decoration: none;
+                transition:all ease 600ms;
+                -moz-transition:all ease 600ms;
+                -webkit-transition:all ease 600ms;
+                -o-transition:all ease 600ms;
+                padding-bottom: 20px;
+                &:hover{
+                    color: #E79800;
+                    border-bottom: 2px solid #E79800;
+                }
+
             }
 
-        }
-        &:hover{
 
         }
-
-    }
-    .serText{
-        padding: 6px;
-        display: none;
-        position: absolute;
-        right: 20px;
-        top: 30px;
-        box-shadow: 0 0 12px #ddd;
-
-    }
-    .userBox{
-        background: #f1f1f1;
-        width: 250px;
-        padding: 20px;
-        text-align: left;
-        position: absolute;
-        right: 0;
-        top: 63px;
-        z-index: 1;
-        height: auto;
-        display: none;
-
-
-        .usern{
-            font-size: 14px;
-            text-transform: uppercase;
-        }
-        .usBtn{
-            padding: 12px 0;
-        }
-
-        .uname{
-            font-size: 14px;
-            font-weight: 400;
+        .serText{
             padding: 6px;
-            margin-bottom: 12px;
+            display: none;
+            position: absolute;
+            right: 20px;
+            top: 30px;
+            box-shadow: 0 0 12px #ddd;
+
         }
-        a{
-            font-size: 12px;
-            border: 1px solid #ddd;
-            margin-right: 12px;
-            background: #174873;
-            padding: 5px 10px;
-            color: #fff;
-            border-radius: 4px;
-            text-transform: capitalize;
+        .userBox{
+            background: #f1f1f1;
+            width: 250px;
+            padding: 20px;
+            text-align: left;
+            position: absolute;
+            right: 0;
+            top: 63px;
+            z-index: 1;
+            height: auto;
+            display: none;
+
+
+            .usern{
+                font-size: 14px;
+                text-transform: uppercase;
+            }
+            .usBtn{
+                padding: 12px 0;
+            }
+
+            .uname{
+                font-size: 14px;
+                font-weight: 400;
+                padding: 6px;
+                margin-bottom: 12px;
+            }
+            a{
+                font-size: 12px;
+                border: 1px solid #ddd;
+                margin-right: 12px;
+                background: #174873;
+                padding: 5px 10px;
+                color: #fff;
+                border-radius: 4px;
+                text-transform: capitalize;
+            }
         }
-    }
-    ul li:last-child{
-        margin-right: 0!important;
-    }
-    .submenu {
-        position: absolute;
-        left: 0;
-        top: 80px;
-        width: 167px;
-        height: auto;
-        display: block;
-        background: #fff;
-        visibility: hidden;
-        color: #333;
-        opacity: 0;
-        transition: all ease 500ms;
-        z-index: 1;
-        padding-bottom: 12px;
-    }
-    li:hover .submenu {
-        visibility: visible;
-        opacity: 1;
-        top: 55px;
-    }
-    .submenu li {
-        padding: 12px 0 0 30px;
-        display: block;
-        text-align: left;
-        width: 100%;
-        height: auto;
-        a {
-            text-transform: uppercase;
-            font-size: 14px;
-            border: none !important;
+        ul li:last-child{
+            margin-right: 0!important;
+        }
+        .submenu {
+            position: absolute;
+            left: 0;
+            top: 80px;
+            width: 167px;
+            height: auto;
+            display: block;
+            background: #fff;
+            visibility: hidden;
+            color: #333;
+            opacity: 0;
+            transition: all ease 500ms;
+            z-index: 1;
+            padding-bottom: 12px;
+        }
+        li:hover .submenu {
+            visibility: visible;
+            opacity: 1;
+            top: 55px;
+        }
+        .submenu li {
+            padding: 12px 0 0 30px;
+            display: block;
+            text-align: left;
+            width: 100%;
+            height: auto;
+            a {
+                text-transform: uppercase;
+                font-size: 14px;
+                border: none !important;
+            }
         }
     }
 }
-
 /*===========================end header menu=======================*/
 
 /*===========================start footer=======================*/
@@ -428,12 +435,16 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         }
     }
     .mainMenu.footerMenu{
-        ul li a{
-            text-transform: capitalize;
-            color: #fff;
-            border: none;
-            &:hover{
-                color: #E79A5F;
+        ul li{
+            display: inline-block;
+            margin-right: 5px;
+            a{
+                text-transform: capitalize;
+                color: #fff;
+                border: none;
+                &:hover{
+                    color: #E79A5F;
+                }
             }
         }
     }
@@ -445,6 +456,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     position: relative;
     width: 100%;
     height: auto;
+    padding-top: 91px;
     overflow: hidden;
     .carousel-control span{
         position: absolute;
@@ -1630,7 +1642,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     .secServwedCon{
 
         h2{
-            color: #181818;
+            color: #174873;
             font-size: 27px;
             font-weight: 700;
             letter-spacing: 0;
@@ -1641,6 +1653,19 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
             color: #727272;
             line-height: 1.7;
             font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .abPara{
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            
+        }
+        h3{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            margin-bottom: 20px;
         }
     }
 }

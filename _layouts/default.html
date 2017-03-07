@@ -1,7 +1,7 @@
 <!DOCTYPE Html>
 <html>
     <head>
-        <title>Write Tamplate title here</title>
+        <title>{{page.title}}</title>
 
         <!--all meta tag-->
 
@@ -16,9 +16,10 @@
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/font-awesome.css"/>
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/owl.carousel.css"/>
-        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/owl.theme.css"/>
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/animate.min.css"/>
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/preset.css"/>
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/responsive.css"/>
         <!-- End CSS Including -->
     </head>
     <body>
@@ -26,12 +27,12 @@
         <section class="headerTop">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-3 col-md-4">
                         <div class="headerInfo">
                             <p>Question? <i class="fa fa-phone"> <span>123-123-1234</span> </i></p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-lg-offset-3">
+                    <div class="col-lg-6 col-lg-offset-3 col-sm-9 col-md-8">
                         <div class="mainItemHeader">
                             <div class="headerInformation">
                                 <i class="fa fa-envelope">&nbsp;<span>youremail@site.com</span></i>
@@ -52,34 +53,58 @@
         </section>
         <!--end header top-->
         <!--start header menu-->
-        <section class="headerMenu">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="logo1">
-                            <a href=""><img src="./assets/images/logo.png" alt=""></a>
+        <section class="headerMenu wow fadeInUp">
+            <div class="hMenu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3">
+                            <div class="logo1">
+                                <a href=""><img src="./assets/images/logo.png" alt=""></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-lg-offset-3">
-                        <nav class="mainMenu text-right">
-                            <ul>
-                                <li><a href="">home</a></li>
-                                <li><a href="">pages</a>
-                                    <ul class="submenu">
-                                        <li><a href="">page1</a></li>
-                                        <li><a href="">page2</a></li>
-                                        <li><a href="">page3</a></li>
-                                        <li><a href="">page4</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="">course</a></li>
-                                <li><a href="">ours taff</a></li>
-                                <li><a href="">events</a></li>
-                                <li><a href="">shop</a></li>
-                                <li><a href="">blog</a></li>
-                                <li><a href="">contact</a></li>
-                            </ul>
-                        </nav>
+                        <div class="col-lg-8 col-lg-offset-1 col-md-9 " >
+                            <div class="MobileMenu1 hidden-lg hidden-md hidden-sm">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <nav class="mainMenu text-right" id="menu">
+
+                                <ul>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">About Us</a>
+                                        <ul class="submenu">
+                                            <li><a href="">page1</a></li>
+                                            <li><a href="">page2</a></li>
+                                            <li><a href="">page3</a></li>
+                                            <li><a href="">page4</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Services</a></li>
+                                    <li><a href="">How</a></li>
+                                    <li><a href="">Pricing</a></li>
+                                    <li><a href="">Trial</a></li>
+                                    <li><a href="">FAQ</a></li>
+                                    <li><a href="">contact</a></li>
+                                    <li class="sercIcon"><i class="fa fa-search srec"></i></li>
+                                    <li class="user1"><i class="fa fa-user user"></i></li>
+
+                                </ul>
+                                <div class="sercbar">
+                                    <input type="text" name="search" class="serText" placeholder="search">
+                                </div>
+                                <div class="userBox">
+                                    <label class="usern">user name</label>
+                                    <input type="text" name="name" class="uname" placeholder="user name"><br>
+                                    <label class="usern">password</label>
+                                    <input type="password" name="name" class="uname upass" placeholder="password"><br>
+                                    <div class="usBtn">
+                                        <a href="#">log in</a>
+                                        <a href="#">sign up</a>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -92,7 +117,7 @@
         <section class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInLeft">
                         <div class="leftWidget">
                             <h2>About Us</h2>
                             <p>We are very proud to announce that since 1986 we are spreading
@@ -103,35 +128,49 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="mainwid">
+                            <div class="leftWidget">
+                                <h2>Services</h2>
+                                <ul class="officehour">
+                                    <li>Services 1</li>
+                                    <li>Services 1</li>
+                                    <li>Services 1</li>
+                                    <li>Services 1</li>
+                                </ul>
+                            </div>
+                            <div class="leftWidget leftWidget22">
+
+                                <ul class="officehour">
+                                    <li>Services 1</li>
+                                    <li>Services 1</li>
+                                    <li>Services 1</li>
+                                    <li>Services 1</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div class="leftWidget">
                             <h2>quick links</h2>
-                            <div class="fowidgetmenu">
-                                <a href="">collage life</a>
-                                <a href="">students</a>
-                                <a href="">transport</a>
-                            </div>
-                            <div class="fowidgetmenu">
-                                <a href="">join our events</a>
-                                <a href="">collage</a>
-                                <a href="">policy</a>
+                            <div class="ppp">
+                                <div class="fowidgetmenu">
+                                    <a href="">collage life</a>
+                                    <a href="">students</a>
+                                    <a href="">transport</a>
+                                </div>
+                                <div class="fowidgetmenu">
+                                    <a href="">join our events</a>
+                                    <a href="">collage</a>
+                                    <a href="">policy</a>
+                                </div>
+                                <div class="clearfix"></div>
                             </div>
                         </div>
+
                     </div>
-                    <div class="col-lg-3">
-                        <div class="leftWidget">
-                            <h2>Office Hours</h2>
-                            <ul class="officehour">
-                                <li>Monday: 09:00 - 17:00</li>
-                                <li>Tuseday: 09:00 - 17:00</li>
-                                <li>Wednesday: 09:00 - 17:00</li>
-                                <li>Thursday: 09:00 - 17:00</li>
-                                <li>Friday: 09:00 - 17:00</li>
-                                <li>Saturday, Sunday: By appointment only</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInRight">
                         <div class="footerRightWidget">
                             <div class="FooIcon">
                                 <i class="fa fa-home"></i>
@@ -183,12 +222,12 @@
         <footer class="footerBootm">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-xs-4 col-sm-4">
                         <div class="foBottmcont">
                             <p>2017 <a href="">microtechna</a> All Rights Reserved.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-xs-8 col-sm-8">
                         <nav class="mainMenu footerMenu text-right ">
                             <ul>
                                 <li><a href="">home</a></li>
@@ -209,6 +248,7 @@
         <script type="text/javascript" src="{{ site.baseurl }}assets/js/jquery.js"></script>
         <script type="text/javascript" src="{{ site.baseurl }}assets/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="{{ site.baseurl }}assets/js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="{{ site.baseurl }}assets/js/wow.min.js"></script>
         <script type="text/javascript" src="{{ site.baseurl }}assets/js/main.js"></script>  
     </body>
 </html>

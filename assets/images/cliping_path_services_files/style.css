@@ -759,9 +759,9 @@
       .featureService1 .featureSerContent .serbt a {
         font-size: 14px;
         font-weight: 400;
-        background: #286090;
+        background: #174873;
         color: #fff;
-        padding: 10px 40px;
+        padding: 10px 20px;
         border-radius: 4px;
         transition: .3s; }
         .featureService1 .featureSerContent .serbt a:hover {
@@ -1546,11 +1546,10 @@ mony reciption section*/
   margin: 20px 0; }
 
 .clippingserviceContent p {
-  color: #777;
   font-size: 15px;
-  line-height: 26px;
-  margin-bottom: 20px;
-  text-align: justify; }
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 20px; }
 
 .clippingserviceContent .serviceQoute {
   padding: 0;
@@ -1560,9 +1559,3 @@ mony reciption section*/
     font-size: 14px;
     font-weight: 400;
     line-height: 20px; }
-
-.mainbenefitList.mainbenefitList .benelistItem .benIcon {
-  width: 8%;
-  margin-bottom: 8px; }
-  .mainbenefitList.mainbenefitList .benelistItem .benIcon i {
-    font-size: 28px; }

@@ -82,7 +82,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     width: 100%;
     height: auto;
     background: #174873;
-    padding: 10px 0;
+    padding: 7px 0;
     margin-bottom: 83px;
 }
 .mainItemHeader{
@@ -456,7 +456,6 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     position: relative;
     width: 100%;
     height: auto;
-    padding-top: 91px;
     overflow: hidden;
     .carousel-control span{
         position: absolute;
@@ -934,7 +933,6 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     padding: 80px;
     .featureSerContent{
         position: relative;
-        padding-top: 100px;
         h2{
             color: #333;
             font-size: 40px;
@@ -947,6 +945,22 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
             font-size: 16px;
             line-height: 26px;
             padding-right: 88px;
+        }
+        .serbt{
+            margin-top: 30px;
+            a{
+                font-size: 14px;
+                font-weight: 400;
+                background: #286090;
+                color: #fff;
+                padding: 10px 40px;
+                border-radius: 4px;
+                transition: .3s;
+                &:hover{
+                    background: #E79800;
+                }
+
+            }
         }
     }
     .featureSerImg{
@@ -1659,13 +1673,216 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
             font-size: 16px;
             font-weight: 600;
             margin-bottom: 12px;
-            
+
         }
         h3{
             font-size: 16px;
             font-weight: 400;
             line-height: 26px;
             margin-bottom: 20px;
+        }
+    }
+}
+
+/*-----------------------accordian---------------------*/
+
+.collapHead{
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin: 20px 0;
+}
+
+
+a:focus,
+a:hover,
+a:active {
+    outline: 0;
+    text-decoration: none;
+}
+
+
+.panel:last-child {
+    border-bottom: none;
+}
+
+.panel-group > .panel:first-child .panel-heading {
+    border-radius: 4px 4px 0 0;
+}
+
+.panel-group .panel {
+    border-radius: 0;
+}
+
+.panel-group .panel + .panel {
+    margin-top: 0;
+}
+
+.panel-heading {
+    background-color: #009688;
+    border-radius: 0;
+    border: none;
+    color: #333;
+    padding: 0;
+}
+
+.panel-title a {
+    display: block;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    background: #174873;
+}
+
+.panel-body {
+    background: #fff;
+}
+
+
+#bs-collapse .panel-heading a:after {
+    content: '\f106';
+    font-size: 24px;
+    position: absolute;
+    font-family: 'fontawesome';
+    right: 5px;
+    top: 10px;
+    transform: scale(0);
+    transition: all 0.5s;
+}
+
+#bs-collapse .panel-heading.active a:after {
+    content: '\e909';
+    transform: scale(1);
+    transition: all 0.5s;
+}
+/* #accordion rotate icon option */
+
+#accordion .panel-heading a:before {
+    content: '\f106';
+    font-size: 24px;
+    position: absolute;
+    font-family: 'fontawesome';
+    right: 5px;
+    top: 10px;
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+
+#accordion .panel-heading.active a:before {
+    transform: rotate(0deg);
+    transition: all 0.5s;
+}
+
+/*
+mony reciption section*/
+
+.PrtTitle h2{
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 21px;
+    margin: 20px 0;
+}
+
+.singlePartner1{
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    &:hover {
+        transform: scale(1.1) !important;
+    }
+    img {
+        height: auto;
+        width: 100%;
+    }
+    h2 {
+        font-size: 38px;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    p {
+        color: #facc3d;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+}
+.shareMenu{
+    .entry-social {margin-bottom: 20px; margin-top: 40px;color: rgb(126, 126, 126);display: block;font-family: 'Open Sans',Tahoma, Verdana, Arial, sans-serif, Faruma, Faseyha;font-size: 14px;font-weight: normal;height: auto;line-height:23.799999237060547px;margin-bottom: 20px;width: 100%;
+                   width: 100%;float:left;border: solid 0px #aaa;text-align: center;}
+
+    .entry-social div {
+        display: block;
+        width:120px;
+        margin:2px;
+        display: inline-block;  
+    }
+
+    .entry-social a {text-decoration:none;display: block;padding-left: 20px;color: #FFFFFF !important;font-weight: bold;transition:background-color .3s;    }
+
+    .entry-social .fb a {
+        padding: 7px 10px 7px 26px;
+        background: #3B5999 url('http://3.bp.blogspot.com/-yqD2363XuAo/UeDk98twSlI/AAAAAAAAArg/kXIzFBWmczM/s1600/fb14.png') no-repeat 10px center;}
+
+    .entry-social .twitter a {
+        padding: 7px 10px 7px 32px;
+        background: #01BBF6 url('http://3.bp.blogspot.com/-0u8P4VQmEeU/UeDlVdilwcI/AAAAAAAAAro/lGTnlvHGyVw/s1600/twitter14.png') no-repeat 8px center;}
+
+    .entry-social .gplus a {
+        padding: 7px 10px 7px 32px;
+        background: #D54135 url('http://3.bp.blogspot.com/-A8fFRexz_zk/UeDlgadvpiI/AAAAAAAAArw/TRd7NWNwo9s/s1600/gplus14.png') no-repeat 10px center;}
+
+
+    .entry-social .pinterest a {
+        padding: 7px 10px 7px 32px;background: #CB2027 url('http://1.bp.blogspot.com/-v-ZkEQhYpug/UeDl6uIio-I/AAAAAAAAAsA/9rqq2cXT08k/s320/pinterest14.png') no-repeat 10px center;}
+
+    .entry-social .delicious a {
+
+        .entry-social .fb a:hover {background-color: rgb(50, 75, 129);}
+        .entry-social .twitter a:hover {background-color: rgb(1, 159, 211);}
+        .entry-social .gplus a:hover {background-color: rgb(191, 52, 40);}
+        .entry-social .linkedin a:hover {background-color: rgb(15, 89, 125);}
+        .entry-social .pinterest a:hover {background-color: rgb(174, 28, 35);}
+        .entry-social .delicious a:hover {background-color: rgb(38, 90, 168);}
+    }
+}
+/*--------------clipping path service------------*/
+.clippingserviceContent{
+    h1{
+        font-size: 36px;
+        font-weight: 300;
+        line-height: 28px;
+        margin: 20px 0;
+    }
+    p{
+        color: #777;
+        font-size: 15px;
+        line-height: 26px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .serviceQoute{
+        padding: 0;
+        margin: 0 0 0 30px;
+        li{
+            list-style: square;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+    }
+}
+.mainbenefitList.mainbenefitList{
+    .benelistItem{
+        .benIcon {
+            width: 8%;
+            margin-bottom: 8px;
+            i{
+                font-size: 28px;
+            }
         }
     }
 }

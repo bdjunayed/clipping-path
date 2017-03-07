@@ -31,14 +31,28 @@
                 margin-top: 0;
                 padding-bottom: 8px;
                 text-align: left;
+                a{
+                    color: #fff;
+                    &:hover{
+                        border-bottom: none;
+                    }
+                }
+            }
+            .sercIcon i{
+                color: #fff;
+            }
+            .user1 i{
+                color: #fff;
             }
             .submenu{
                 left: 60px;
-                top: 40px;
+                top: 30px;
+                li a{
+                    color: #333;
+                }
+                
             }
-            a{
-                color: #fff;
-            }
+            
 
         }
 
@@ -50,13 +64,17 @@
         .abContent{
             h1 {
                 font-size: 18px;
+                line-height: 24px;
+                margin: 12px 0;
 
             }
             h4{
                 font-size: 13px;
             }
             p{
-                font-size: 12px;
+                font-size: 13px;
+                line-height: 19px;
+                text-align: justify;
             }
             a{
 
@@ -73,22 +91,31 @@
             color: #333;
             font-size: 26px;
             font-weight: 300;
-            line-height: 50px;
+            line-height: 31px;
             margin-bottom: 30px;
         }
+        .singleBenefit{
+            margin-bottom: 32px;
+        }
         .singleBenefit h3{
-            font-size: 16px;
+            font-size: 15px;
+        }
+        .singleBenefit p{
+            line-height: 20px;
         }
     }
     .mainFeatureMenu{
         display: none;
     }
+    .benefitsListSec .mainbenefitList .benelistItem .benIcon i{
+        font-size: 37px;
+    }
     .benefitsListSec .mainbenefitList .benelistItem .benContent p {
         color: #888;
         font-size: 12px;
         font-weight: 400;
-        line-height: 24px;
-        margin-left: 38px;
+        line-height: 20px;
+        margin-left: 26px;
     }
     .benefits_featureflow .featureflowStep::before {
         display: none;
@@ -108,7 +135,7 @@
             font-size: 20px;
             font-weight: 400;
             line-height: 30px;
-            padding: 0 0 40px;
+            padding: 0 0 11px;
         }
         p{
             color: #777;
@@ -116,6 +143,7 @@
             line-height: 26px;
             padding-right: 0;
             margin-bottom: 5px;
+            text-align: justify;
         }
     }
     .featureService1 .featureSerImg {
@@ -129,8 +157,9 @@
     .feature-team {
         padding: 23px 0;
         .featureTeamTitle h2 {
-            font-size: 25px;
+            font-size: 24px;
             margin-bottom: 12px;
+            line-height: 27px;
         }
         .featureTeamTitle p{
             font-size: 15px;
@@ -145,10 +174,48 @@
     .col-xs-4{
         width: 100%;
     }
+    .leftWidget{
+        margin-bottom: 20px;
+    }
 }
 
+@media (min-width: 360px) and (max-width: 640px){
+    .featureMenu{
+        display: none;
+    }
+    .headerTop{
+        display: none;
+    }
 
-@media (min-width: 481px) and (max-width:767px){
+    .featureMenu .mainFeatureMenu ul li a {
+        color: #333;
+        font-family: "Lato",sans-serif;
+        font-size: 9px;
+        font-weight: 500;
+        line-height: 26px;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+    .featureMenu .mainFeatureMenu ul li {
+        box-shadow: 0 0 1px #ddd;
+        display: inline-block;
+        height: auto;
+        list-style: outside none none;
+        padding: 11px;
+        text-align: center;
+        width: 91px;
+    }
+    .featureMenufixed {
+        box-shadow: 1px 0 3px #ddd;
+        height: auto;
+        left: 0;
+        position: fixed;
+        top: 67px;
+        width: 100%;
+        z-index: 1;
+    }
+}
+@media (min-width: 484px) and (max-width:640px){
     .headerTop {
         background: #174873 none repeat scroll 0 0;
         height: auto;
@@ -171,7 +238,7 @@
         }
         .mainMenu {
             ul{
-                background: #111;
+                background: #fff;
                 padding: 10px;
                 li {
                     display:block;
@@ -179,90 +246,83 @@
                     margin-top: 0;
                     padding-bottom: 8px;
                     text-align: left;
+                    color: #fff;
+                    a{
+                        color: #fff !important;
+                    }
                 }
                 .submenu{
                     left: 60px;
                     top: 40px;
-                }
-                a{
-                    color: #fff;
-                }
-            }
-        }
+                    li a{
 
-        .aboutUs .abContent a {
-            background: #174873 none repeat scroll 0 0;
-            border-radius: 4px;
-            color: #fff;
-            font-size: 13px;
-            font-weight: 400;
-            margin-left: 2px;
-            padding: 15px 20px;
-            text-transform: uppercase;
-            transition: all 500ms ease 0s;
-        }
-        .featureMenu .mainFeatureMenu ul li {
-            padding: 5px;
-            width: 72px;
-            a{
-                font-size: 9px;
-            }
-        }
-        .featureMenufixed {
-            top: 58px;
-        }
-        .benefitsListSec .mainbenefitList .benelistItem .benContent p {
-            margin-left: 29px;
-        }
-        .featureMenu .mainFeatureMenu ul li {
-            padding: 10px;
-            width: 72px;
-        }
-        .featureMenufixed{
-            top: 50px;
-        }
-        .benefits_featureflow .featureflowStep::before {
-            display: none;
-        }
-        .benefits_featureflow .benefits_featureflowStep a p {
+                        color: #fff !important;
 
-            margin-bottom: 18px;
-        }
-        .featureService1 {
-            height: auto;
-            padding: 10px;
-            position: relative;
-            width: 100%;
-        }
-        .featureService1 .featureSerContent {
-            padding-top: 10px;
-            position: relative;
-        }
-        .featureService1 .featureSerContent h2 {
-            padding-bottom: 0;
-            font-size: 32px;
-        }
-        .featureService1 .featureSerContent p {
-            color: #777;
-            font-size: 13px;
-            line-height: 26px;
-            padding-right: 0px;
-            margin-bottom: 19px;
-        }
-        .featureService1 .featureSerImg img {
-            padding: 12px 0;
-        }
-        .feature-team .featureTeamTitle h2 {
-            font-size: 32px;
-            margin-bottom: 22px;
-        }
-        .feature-team .featureTeamTitle p::after {
-            width: 25%;
-        }
-        .feature-team .featureTeamTitle p::before {
-            width: 25%;
+                    }
+                }
+
+            }
         }
     }
+    .aboutUs .abContent a {
+        background: #174873 none repeat scroll 0 0;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 400;
+        margin-left: 2px;
+        padding: 15px 20px;
+        text-transform: uppercase;
+        transition: all 500ms ease 0s;
+    }
+    .featureMenu {
+        background: #fafafa none repeat scroll 0 0;
+        display: none !important;
+        height: auto;
+        width: 100%;
+    }
+    .benefits_featureflow .featureflowStep::before {
+        display: none;
+    }
+    .benefits_featureflow .benefits_featureflowStep a p {
+
+        margin-bottom: 18px;
+    }
+    .featureService1 {
+        height: auto;
+        padding: 10px;
+        position: relative;
+        width: 100%;
+    }
+    .featureService1 .featureSerContent {
+        padding-top: 10px;
+        position: relative;
+    }
+    .featureService1 .featureSerContent h2 {
+        padding-bottom: 0;
+        font-size: 32px;
+    }
+    .featureService1 .featureSerContent p {
+        color: #777;
+        font-size: 13px;
+        line-height: 26px;
+        padding-right: 0px;
+        margin-bottom: 19px;
+    }
+    .featureService1 .featureSerImg img {
+        padding: 12px 0;
+    }
+    .feature-team .featureTeamTitle h2 {
+        font-size: 32px;
+        margin-bottom: 22px;
+    }
+    .feature-team .featureTeamTitle p::after {
+        width: 25%;
+    }
+    .feature-team .featureTeamTitle p::before {
+        width: 25%;
+    }
+
 }
 
 
@@ -277,7 +337,7 @@
     }
     .headerMenu{
         .logo1{
-            width: 100%;
+            width: 50%;
             display: inline-block;
         }
         .logo1 img{
@@ -292,7 +352,7 @@
         }
     }
     .sliderSec{
-        padding-top: 150px;
+        padding-top: 0px;
     }
 
     .aboutUs .abContent1 h1{
@@ -350,7 +410,9 @@
         }
 
     }
-
+    .featureHide{
+        display: none;
+    }
     .featureMenu .mainFeatureMenu ul li {
         height: auto;
         margin-right: 20px;
@@ -359,7 +421,7 @@
     }
     .featureMenufixed {
 
-        top: 160px;
+        top: 168px !important;
 
     }
     .featureService1{
@@ -385,7 +447,7 @@
         margin: 0;
     }
     .featureService1 .featureSerImg img {
-        height: 471px;
+        height: auto;
         width: 100%;
     }
     .feature-team{
@@ -424,5 +486,5 @@
     }
 }
 @media(min-width:1021px) and (max-width: 1199px){
-    
+
 }

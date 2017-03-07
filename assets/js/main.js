@@ -76,7 +76,7 @@ $(document).ready(function () {
     
     /* feature menu fixed*/
     $(window).on('scroll', function () {
-        if ($(window).scrollTop() > 3600)
+        if ($(window).scrollTop() > 3400)
         {
             $(".featureMenu").addClass('featureMenufixed');
         } else

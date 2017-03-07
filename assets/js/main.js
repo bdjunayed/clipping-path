@@ -76,7 +76,7 @@ $(document).ready(function () {
     
     /* feature menu fixed*/
     $(window).on('scroll', function () {
-        if ($(window).scrollTop() > 3600)
+        if ($(window).scrollTop() > 3400)
         {
             $(".featureMenu").addClass('featureMenufixed');
         } else
@@ -102,7 +102,17 @@ $(document).ready(function () {
         $(".userBox").toggle('slow');
     });
 
-
+    
+      $('.collapse.in').prev('.panel-heading').addClass('active');
+  $('#accordion, #bs-collapse')
+    .on('show.bs.collapse', function(a) {
+      $(a.target).prev('.panel-heading').addClass('active');
+    })
+    .on('hide.bs.collapse', function(a) {
+      $(a.target).prev('.panel-heading').removeClass('active');
+    });
+    
+    
 });
 
     

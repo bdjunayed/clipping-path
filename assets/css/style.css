@@ -43,7 +43,7 @@
   width: 100%;
   height: auto;
   background: #174873;
-  padding: 10px 0;
+  padding: 7px 0;
   margin-bottom: 83px; }
 
 .mainItemHeader {
@@ -1358,3 +1358,183 @@
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 20px; }
+
+/*-----------------------accordian---------------------*/
+.collapHead {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 26px;
+  margin: 20px 0; }
+
+a:focus,
+a:hover,
+a:active {
+  outline: 0;
+  text-decoration: none; }
+
+.panel:last-child {
+  border-bottom: none; }
+
+.panel-group > .panel:first-child .panel-heading {
+  border-radius: 4px 4px 0 0; }
+
+.panel-group .panel {
+  border-radius: 0; }
+
+.panel-group .panel + .panel {
+  margin-top: 0; }
+
+.panel-heading {
+  background-color: #009688;
+  border-radius: 0;
+  border: none;
+  color: #333;
+  padding: 0; }
+
+.panel-title a {
+  display: block;
+  color: #fff;
+  padding: 15px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  background: #174873; }
+
+.panel-body {
+  background: #fff; }
+
+#bs-collapse .panel-heading a:after {
+  content: '\f106';
+  font-size: 24px;
+  position: absolute;
+  font-family: 'fontawesome';
+  right: 5px;
+  top: 10px;
+  transform: scale(0);
+  transition: all 0.5s; }
+
+#bs-collapse .panel-heading.active a:after {
+  content: '\e909';
+  transform: scale(1);
+  transition: all 0.5s; }
+
+/* #accordion rotate icon option */
+#accordion .panel-heading a:before {
+  content: '\f106';
+  font-size: 24px;
+  position: absolute;
+  font-family: 'fontawesome';
+  right: 5px;
+  top: 10px;
+  transform: rotate(180deg);
+  transition: all 0.5s; }
+
+#accordion .panel-heading.active a:before {
+  transform: rotate(0deg);
+  transition: all 0.5s; }
+
+/*
+mony reciption section*/
+.PrtTitle h2 {
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 21px;
+  margin: 20px 0; }
+
+.singlePartner {
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+  transition: all ease 500ms;
+  -moz-transition: all ease 500ms;
+  -webkit-transition: all ease 500ms;
+  -o-transition: all ease 500ms; }
+  .singlePartner:hover {
+    transform: scale(1.1); }
+  .singlePartner img {
+    height: 100%;
+    width: 60%; }
+  .singlePartner h2 {
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: capitalize; }
+  .singlePartner p {
+    color: #facc3d;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize; }
+
+.shareMenu .entry-social {
+  margin-bottom: 20px;
+  margin-top: 40px;
+  color: #7e7e7e;
+  display: block;
+  font-family: 'Open Sans',Tahoma, Verdana, Arial, sans-serif, Faruma, Faseyha;
+  font-size: 14px;
+  font-weight: normal;
+  height: auto;
+  line-height: 23.799999237060547px;
+  margin-bottom: 20px;
+  width: 100%;
+  width: 100%;
+  float: left;
+  border: solid 0px #aaa;
+  text-align: center; }
+
+.shareMenu .entry-social div {
+  display: block;
+  width: 120px;
+  margin: 2px;
+  display: inline-block; }
+
+.shareMenu .entry-social a {
+  text-decoration: none;
+  display: block;
+  padding-left: 20px;
+  color: #FFFFFF !important;
+  font-weight: bold;
+  transition: background-color .3s; }
+
+.shareMenu .entry-social .fb a {
+  padding: 7px 10px 7px 26px;
+  background: #3B5999 url("http://3.bp.blogspot.com/-yqD2363XuAo/UeDk98twSlI/AAAAAAAAArg/kXIzFBWmczM/s1600/fb14.png") no-repeat 10px center; }
+
+.shareMenu .entry-social .twitter a {
+  padding: 7px 10px 7px 32px;
+  background: #01BBF6 url("http://3.bp.blogspot.com/-0u8P4VQmEeU/UeDlVdilwcI/AAAAAAAAAro/lGTnlvHGyVw/s1600/twitter14.png") no-repeat 8px center; }
+
+.shareMenu .entry-social .gplus a {
+  padding: 7px 10px 7px 32px;
+  background: #D54135 url("http://3.bp.blogspot.com/-A8fFRexz_zk/UeDlgadvpiI/AAAAAAAAArw/TRd7NWNwo9s/s1600/gplus14.png") no-repeat 10px center; }
+
+.shareMenu .entry-social .linkedin a {
+  padding: 7px 10px 7px 32px;
+  background: #136F9B url("http://4.bp.blogspot.com/-yuEMxhpIXPc/UeDltjBGR1I/AAAAAAAAAr4/kgidavlGbY8/s1600/linkedin14.png") no-repeat 10px center; }
+
+.shareMenu .entry-social .pinterest a {
+  padding: 7px 10px 7px 32px;
+  background: #CB2027 url("http://1.bp.blogspot.com/-v-ZkEQhYpug/UeDl6uIio-I/AAAAAAAAAsA/9rqq2cXT08k/s320/pinterest14.png") no-repeat 10px center; }
+
+.shareMenu .entry-social .delicious a {
+  padding: 7px 10px 7px 32px;
+  background: #3173D1 url("http://2.bp.blogspot.com/-J9p31gkQfXw/UeDmILHMQwI/AAAAAAAAAsI/bEws_iRNx7g/s320/delicious14.png") no-repeat 10px center; }
+
+.shareMenu .entry-social .fb a:hover {
+  background-color: #324b81; }
+
+.shareMenu .entry-social .twitter a:hover {
+  background-color: #019fd3; }
+
+.shareMenu .entry-social .gplus a:hover {
+  background-color: #bf3428; }
+
+.shareMenu .entry-social .linkedin a:hover {
+  background-color: #0f597d; }
+
+.shareMenu .entry-social .pinterest a:hover {
+  background-color: #ae1c23; }
+
+.shareMenu .entry-social .delicious a:hover {
+  background-color: #265aa8; }

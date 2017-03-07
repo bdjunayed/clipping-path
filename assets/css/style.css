@@ -1566,3 +1566,33 @@ mony reciption section*/
   margin-bottom: 8px; }
   .mainbenefitList.mainbenefitList .benelistItem .benIcon i {
     font-size: 28px; }
+
+/*--------------service for Img-------------*/
+.serviceForImg .servclippara {
+  padding-bottom: 20px; }
+
+.serviceForImg .mainclipImg {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  padding: 0 0 0 20px;
+  margin-bottom: 20px;
+  background: #fafafa; }
+  .serviceForImg .mainclipImg p {
+    color: #727272;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 20px; }
+  .serviceForImg .mainclipImg h1 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 20px 0; }
+  .serviceForImg .mainclipImg img {
+    width: 70%;
+    height: auto;
+    margin: 20px 0; }
+  .serviceForImg .mainclipImg .clipservPrice {
+    font-size: 18px;
+    font-weight: 700;
+    color: #174873; }

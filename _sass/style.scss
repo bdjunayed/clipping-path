@@ -1536,22 +1536,8 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         position: relative;
         text-transform: uppercase;
         width: 246px;
-        display: inline-block;
         z-index: 999;
         overflow: hidden;
-        &:before {
-            position: absolute;
-            content: '';
-            width: 246px;
-            height: 10px;
-            border-radius: 9px;
-            left: 0;
-            top: 0;
-            background: rgba(157, 211, 10, 0.4);
-            transition: all ease 600ms;
-            visibility: hidden;
-            opacity: 0;
-        }
         &:hover:before {
             visibility: visible;
             opacity: 1;
@@ -1559,6 +1545,9 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
             height: 57px;
             top: 57px;
         }
+    }
+    .desBtn{
+        float: left;
     }
     > a > i {
         padding-left: 19px;
@@ -1587,6 +1576,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     position: relative;
     width: 100%;
     height: 100%;
+    padding-bottom: 30px;
 }
 
 .DesignUpInput {
@@ -2002,4 +1992,58 @@ mony reciption section*/
         padding: 6px 8px 4px 6px;
         position: absolute;
     }
+}
+/*----------priching page--------*/
+.prichingPageSec{
+    position: relative;
+    overflow:hidden;
+    width: 100%;
+    height: auto;
+    .mainpric{
+        padding: 50px 0;
+    }
+    .prichingpageimg{
+        position: relative;
+        width: 100%;
+        height: auto;
+        h1{
+            font-size: 75px;
+            letter-spacing: 4px;
+            font-weight: 300;
+            line-height: 60px;
+            letter-spacing: 2.5px;
+            margin: 20px 0 30px;
+            color: #174873;
+        }
+        img{
+            width: 100%;
+            heihgt: auto;
+        }
+    }
+    .prichingpageCont{
+        position: relative;
+        margin-top: 20px;
+        
+        span{
+            font-size: 26px;
+            font-weight: 700;
+            background: #174873;
+            padding: 12px 25px;
+            color: #fff;
+            border-radius: 4px;
+        }
+        h1{
+            font-size: 36px;
+            font-weight: 300;
+            letter-spacing: 1.5px;
+            margin-top: 20px;
+        }
+        p{
+            color: #727272;
+            font-size: 14px;
+            line-height: 1.7;
+            margin-top: 25px;
+        }
+    }
+    
 }

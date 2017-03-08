@@ -26,7 +26,7 @@ $nav_layout: layout( 12 0 fluid float inside);
 
 $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
 
-.corr { border:3px; background: #f00; }
+
 
 
 /*===================start Top header===========*/
@@ -231,7 +231,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
             position: absolute;
             left: 0;
             top: 80px;
-            width: 167px;
+            width: 204px;
             height: auto;
             display: block;
             background: #fff;
@@ -460,17 +460,32 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     .carousel-control span{
         position: absolute;
         left: 0;
-        top: 255px;
+        top: 200px;
         bottom: 0;
         right: 0;
         margin: 0 auto;
         font-family: 'fontawesome';
         font-size: 30px;
+        color: #174873;
+    }
+    .carousel-indicators li {
+        background-color: #f00;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        cursor: pointer;
+        display: inline-block;
+        height: 10px;
+        margin: 1px;
+        text-indent: -999px;
+        width: 10px;
+    }
+    .carousel-indicators li.active{
+        background: #174873 !important;
     }
     .slideContent{
-        position: absolute;
+        position: relative;
         left: 0;
-        top: 160px;
+        top: -50px;
         right: 0;
         bottom: 0;
         margin: 0 auto;
@@ -479,7 +494,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         h1{
             font-size: 48px;
             font-weight: 700;
-            color: #E79800;
+            color: #174873;
             text-transform: uppercase;
             letter-spacing: 1.5px;
             line-height: 56px;
@@ -487,7 +502,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         p{
             font-size: 14px;
             font-weight: 400;
-            color: #fff;
+            color: #E79800;
             margin-bottom: 36px;
         }
         a{
@@ -1521,22 +1536,8 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         position: relative;
         text-transform: uppercase;
         width: 246px;
-        display: inline-block;
         z-index: 999;
         overflow: hidden;
-        &:before {
-            position: absolute;
-            content: '';
-            width: 246px;
-            height: 10px;
-            border-radius: 9px;
-            left: 0;
-            top: 0;
-            background: rgba(157, 211, 10, 0.4);
-            transition: all ease 600ms;
-            visibility: hidden;
-            opacity: 0;
-        }
         &:hover:before {
             visibility: visible;
             opacity: 1;
@@ -1544,6 +1545,9 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
             height: 57px;
             top: 57px;
         }
+    }
+    .desBtn{
+        float: left;
     }
     > a > i {
         padding-left: 19px;
@@ -1572,6 +1576,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     position: relative;
     width: 100%;
     height: 100%;
+    padding-bottom: 30px;
 }
 
 .DesignUpInput {
@@ -1790,9 +1795,8 @@ mony reciption section*/
 .singlePartner1{
     width: 100%;
     height: auto;
-    transform: scale(1);
+    transition: all ease 100ms;
     &:hover {
-        transform: scale(1.1) !important;
     }
     img {
         height: auto;
@@ -1891,14 +1895,23 @@ mony reciption section*/
 .serviceForImg{
     .servclippara{
         padding-bottom: 20px;
+        color: #727272;
+        font-size: 14px;
+        line-height: 1.7;
+        line-height: 25px;
     }
     .mainclipImg{
         width: 100%;
         height: auto;
         border:1px solid #ddd;
-        padding: 0 0 0 20px;
+        padding: 10px 0 0 20px;
         margin-bottom: 20px;
         background: #fafafa;
+        h3{
+            font-size: 24px;
+            text-transform: capitalize;
+            line-height: 50px;
+        }
         p{
             color: #727272;
             font-size: 14px;
@@ -1907,10 +1920,11 @@ mony reciption section*/
         }
 
         h1{
-            font-size: 36px;
+            font-size: 34px;
             font-weight: 300;
             line-height: 28px;
             margin: 20px 0;
+            margin-bottom: 12px;
         }
         img{
             width: 70%;
@@ -1922,5 +1936,114 @@ mony reciption section*/
             font-weight: 700;
             color: #174873;
         }
+        .jewlryList{
+            margin-left: 20px;
+            li{
+                list-style: initial;
+                color: #111;
+                font-size: 14px;
+                line-height: 1.9;
+            }
+        }
     }
+}
+
+/*----------------clip musking-------------------*/
+.clipMuskcorr{
+    h3{
+        font-size: 24px;
+        text-transform: capitalize;
+        line-height: 50px;
+    }
+    .jewlryList{
+        margin-left: 20px;
+        li{
+            list-style: initial;
+            color: #111;
+            font-size: 14px;
+            line-height: 1.9;
+        }
+    }
+}
+
+.mainservCaro {
+    position:relative;
+    top: 0;
+    width: 100%;
+    height: 100;
+    left:0;
+    .chivLeft{
+        border: 2px solid #f00;
+        top: 0;
+        color: #f00;
+        font-family: "fontawesome";
+        left: 0;
+        margin: auto;
+        padding: 6px 8px 4px 6px;
+        position: absolute;
+    }
+    .chivright{
+        border: 2px solid #f00;
+        top: 0;
+        color: #f00;
+        font-family: "fontawesome";
+        left: 20px;
+        margin: auto;
+        padding: 6px 8px 4px 6px;
+        position: absolute;
+    }
+}
+/*----------priching page--------*/
+.prichingPageSec{
+    position: relative;
+    overflow:hidden;
+    width: 100%;
+    height: auto;
+    .mainpric{
+        padding: 50px 0;
+    }
+    .prichingpageimg{
+        position: relative;
+        width: 100%;
+        height: auto;
+        h1{
+            font-size: 75px;
+            letter-spacing: 4px;
+            font-weight: 300;
+            line-height: 60px;
+            letter-spacing: 2.5px;
+            margin: 20px 0 30px;
+            color: #174873;
+        }
+        img{
+            width: 100%;
+            heihgt: auto;
+        }
+    }
+    .prichingpageCont{
+        position: relative;
+        margin-top: 20px;
+        
+        span{
+            font-size: 26px;
+            font-weight: 700;
+            background: #174873;
+            padding: 12px 25px;
+            color: #fff;
+            border-radius: 4px;
+        }
+        h1{
+            font-size: 36px;
+            font-weight: 300;
+            letter-spacing: 1.5px;
+            margin-top: 20px;
+        }
+        p{
+            color: #727272;
+            font-size: 14px;
+            line-height: 1.7;
+            margin-top: 25px;
+        }
+    }
+    
 }

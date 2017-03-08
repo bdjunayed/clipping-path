@@ -1,7 +1,3 @@
-.corr {
-  border: 3px;
-  background: #f00; }
-
 /*===================start Top header===========*/
 .MobileMenu1 {
   cursor: pointer !important;
@@ -167,7 +163,7 @@
       position: absolute;
       left: 0;
       top: 80px;
-      width: 167px;
+      width: 204px;
       height: auto;
       display: block;
       background: #fff;
@@ -354,16 +350,29 @@
   .sliderSec .carousel-control span {
     position: absolute;
     left: 0;
-    top: 255px;
+    top: 200px;
     bottom: 0;
     right: 0;
     margin: 0 auto;
     font-family: 'fontawesome';
-    font-size: 30px; }
+    font-size: 30px;
+    color: #174873; }
+  .sliderSec .carousel-indicators li {
+    background-color: #f00;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    width: 10px; }
+  .sliderSec .carousel-indicators li.active {
+    background: #174873 !important; }
   .sliderSec .slideContent {
-    position: absolute;
+    position: relative;
     left: 0;
-    top: 160px;
+    top: -50px;
     right: 0;
     bottom: 0;
     margin: 0 auto;
@@ -372,14 +381,14 @@
     .sliderSec .slideContent h1 {
       font-size: 48px;
       font-weight: 700;
-      color: #E79800;
+      color: #174873;
       text-transform: uppercase;
       letter-spacing: 1.5px;
       line-height: 56px; }
     .sliderSec .slideContent p {
       font-size: 14px;
       font-weight: 400;
-      color: #fff;
+      color: #E79800;
       margin-bottom: 36px; }
     .sliderSec .slideContent a {
       font-size: 14px;
@@ -1239,27 +1248,16 @@
     position: relative;
     text-transform: uppercase;
     width: 246px;
-    display: inline-block;
     z-index: 999;
     overflow: hidden; }
-    .DiscusBtnCon .DiscusBTn:before {
-      position: absolute;
-      content: '';
-      width: 246px;
-      height: 10px;
-      border-radius: 9px;
-      left: 0;
-      top: 0;
-      background: rgba(157, 211, 10, 0.4);
-      transition: all ease 600ms;
-      visibility: hidden;
-      opacity: 0; }
     .DiscusBtnCon .DiscusBTn:hover:before {
       visibility: visible;
       opacity: 1;
       transition: all 0.25s cubic-bezier(0.66, 0.36, 0.17, 0.91);
       height: 57px;
       top: 57px; }
+  .DiscusBtnCon .desBtn {
+    float: left; }
   .DiscusBtnCon > a > i {
     padding-left: 19px; }
 
@@ -1281,7 +1279,8 @@
 .DePageInputGroup {
   position: relative;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  padding-bottom: 30px; }
 
 .DesignUpInput {
   background: #eee none repeat scroll 0 0;
@@ -1461,9 +1460,7 @@ mony reciption section*/
 .singlePartner1 {
   width: 100%;
   height: auto;
-  transform: scale(1); }
-  .singlePartner1:hover {
-    transform: scale(1.1) !important; }
+  transition: all ease 100ms; }
   .singlePartner1 img {
     height: auto;
     width: 100%; }
@@ -1573,25 +1570,34 @@ mony reciption section*/
 
 /*--------------service for Img-------------*/
 .serviceForImg .servclippara {
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  color: #727272;
+  font-size: 14px;
+  line-height: 1.7;
+  line-height: 25px; }
 
 .serviceForImg .mainclipImg {
   width: 100%;
   height: auto;
   border: 1px solid #ddd;
-  padding: 0 0 0 20px;
+  padding: 10px 0 0 20px;
   margin-bottom: 20px;
   background: #fafafa; }
+  .serviceForImg .mainclipImg h3 {
+    font-size: 24px;
+    text-transform: capitalize;
+    line-height: 50px; }
   .serviceForImg .mainclipImg p {
     color: #727272;
     font-size: 14px;
     line-height: 1.7;
     margin-bottom: 20px; }
   .serviceForImg .mainclipImg h1 {
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 300;
     line-height: 28px;
-    margin: 20px 0; }
+    margin: 20px 0;
+    margin-bottom: 12px; }
   .serviceForImg .mainclipImg img {
     width: 70%;
     height: auto;
@@ -1600,3 +1606,93 @@ mony reciption section*/
     font-size: 18px;
     font-weight: 700;
     color: #174873; }
+  .serviceForImg .mainclipImg .jewlryList {
+    margin-left: 20px; }
+    .serviceForImg .mainclipImg .jewlryList li {
+      list-style: initial;
+      color: #111;
+      font-size: 14px;
+      line-height: 1.9; }
+
+/*----------------clip musking-------------------*/
+.clipMuskcorr h3 {
+  font-size: 24px;
+  text-transform: capitalize;
+  line-height: 50px; }
+
+.clipMuskcorr .jewlryList {
+  margin-left: 20px; }
+  .clipMuskcorr .jewlryList li {
+    list-style: initial;
+    color: #111;
+    font-size: 14px;
+    line-height: 1.9; }
+
+.mainservCaro {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100;
+  left: 0; }
+  .mainservCaro .chivLeft {
+    border: 2px solid #f00;
+    top: 0;
+    color: #f00;
+    font-family: "fontawesome";
+    left: 0;
+    margin: auto;
+    padding: 6px 8px 4px 6px;
+    position: absolute; }
+  .mainservCaro .chivright {
+    border: 2px solid #f00;
+    top: 0;
+    color: #f00;
+    font-family: "fontawesome";
+    left: 20px;
+    margin: auto;
+    padding: 6px 8px 4px 6px;
+    position: absolute; }
+
+/*----------priching page--------*/
+.prichingPageSec {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto; }
+  .prichingPageSec .mainpric {
+    padding: 50px 0; }
+  .prichingPageSec .prichingpageimg {
+    position: relative;
+    width: 100%;
+    height: auto; }
+    .prichingPageSec .prichingpageimg h1 {
+      font-size: 75px;
+      letter-spacing: 4px;
+      font-weight: 300;
+      line-height: 60px;
+      letter-spacing: 2.5px;
+      margin: 20px 0 30px;
+      color: #174873; }
+    .prichingPageSec .prichingpageimg img {
+      width: 100%;
+      heihgt: auto; }
+  .prichingPageSec .prichingpageCont {
+    position: relative;
+    margin-top: 20px; }
+    .prichingPageSec .prichingpageCont span {
+      font-size: 26px;
+      font-weight: 700;
+      background: #174873;
+      padding: 12px 25px;
+      color: #fff;
+      border-radius: 4px; }
+    .prichingPageSec .prichingpageCont h1 {
+      font-size: 36px;
+      font-weight: 300;
+      letter-spacing: 1.5px;
+      margin-top: 20px; }
+    .prichingPageSec .prichingpageCont p {
+      color: #727272;
+      font-size: 14px;
+      line-height: 1.7;
+      margin-top: 25px; }

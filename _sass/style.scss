@@ -26,7 +26,7 @@ $nav_layout: layout( 12 0 fluid float inside);
 
 $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
 
-
+.corr { border:3px; background: #f00; }
 
 
 /*===================start Top header===========*/
@@ -1883,6 +1883,44 @@ mony reciption section*/
             i{
                 font-size: 28px;
             }
+        }
+    }
+}
+
+/*--------------service for Img-------------*/
+.serviceForImg{
+    .servclippara{
+        padding-bottom: 20px;
+    }
+    .mainclipImg{
+        width: 100%;
+        height: auto;
+        border:1px solid #ddd;
+        padding: 0 0 0 20px;
+        margin-bottom: 20px;
+        background: #fafafa;
+        p{
+            color: #727272;
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        h1{
+            font-size: 36px;
+            font-weight: 300;
+            line-height: 28px;
+            margin: 20px 0;
+        }
+        img{
+            width: 70%;
+            height: auto;
+            margin: 20px 0;
+        }
+        .clipservPrice{
+            font-size: 18px;
+            font-weight: 700;
+            color: #174873;
         }
     }
 }

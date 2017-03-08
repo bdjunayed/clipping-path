@@ -26,7 +26,7 @@ $nav_layout: layout( 12 0 fluid float inside);
 
 $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
 
-.corr { border:3px; background: #f00; }
+
 
 
 /*===================start Top header===========*/
@@ -231,7 +231,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
             position: absolute;
             left: 0;
             top: 80px;
-            width: 167px;
+            width: 204px;
             height: auto;
             display: block;
             background: #fff;
@@ -1790,9 +1790,8 @@ mony reciption section*/
 .singlePartner1{
     width: 100%;
     height: auto;
-    transform: scale(1);
+    transition: all ease 100ms;
     &:hover {
-        transform: scale(1.1) !important;
     }
     img {
         height: auto;
@@ -1891,14 +1890,23 @@ mony reciption section*/
 .serviceForImg{
     .servclippara{
         padding-bottom: 20px;
+        color: #727272;
+        font-size: 14px;
+        line-height: 1.7;
+        line-height: 25px;
     }
     .mainclipImg{
         width: 100%;
         height: auto;
         border:1px solid #ddd;
-        padding: 0 0 0 20px;
+        padding: 10px 0 0 20px;
         margin-bottom: 20px;
         background: #fafafa;
+        h3{
+            font-size: 24px;
+            text-transform: capitalize;
+            line-height: 50px;
+        }
         p{
             color: #727272;
             font-size: 14px;
@@ -1907,10 +1915,11 @@ mony reciption section*/
         }
 
         h1{
-            font-size: 36px;
+            font-size: 34px;
             font-weight: 300;
             line-height: 28px;
             margin: 20px 0;
+            margin-bottom: 12px;
         }
         img{
             width: 70%;
@@ -1922,5 +1931,60 @@ mony reciption section*/
             font-weight: 700;
             color: #174873;
         }
+        .jewlryList{
+            margin-left: 20px;
+            li{
+                list-style: initial;
+                color: #111;
+                font-size: 14px;
+                line-height: 1.9;
+            }
+        }
+    }
+}
+
+/*----------------clip musking-------------------*/
+.clipMuskcorr{
+    h3{
+        font-size: 24px;
+        text-transform: capitalize;
+        line-height: 50px;
+    }
+    .jewlryList{
+        margin-left: 20px;
+        li{
+            list-style: initial;
+            color: #111;
+            font-size: 14px;
+            line-height: 1.9;
+        }
+    }
+}
+
+.mainservCaro {
+    position:relative;
+    top: 0;
+    width: 100%;
+    height: 100;
+    left:0;
+    .chivLeft{
+        border: 2px solid #f00;
+        top: 0;
+        color: #f00;
+        font-family: "fontawesome";
+        left: 0;
+        margin: auto;
+        padding: 6px 8px 4px 6px;
+        position: absolute;
+    }
+    .chivright{
+        border: 2px solid #f00;
+        top: 0;
+        color: #f00;
+        font-family: "fontawesome";
+        left: 20px;
+        margin: auto;
+        padding: 6px 8px 4px 6px;
+        position: absolute;
     }
 }

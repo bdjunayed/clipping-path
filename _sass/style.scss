@@ -460,17 +460,32 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     .carousel-control span{
         position: absolute;
         left: 0;
-        top: 255px;
+        top: 200px;
         bottom: 0;
         right: 0;
         margin: 0 auto;
         font-family: 'fontawesome';
         font-size: 30px;
+        color: #174873;
+    }
+    .carousel-indicators li {
+        background-color: #f00;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        cursor: pointer;
+        display: inline-block;
+        height: 10px;
+        margin: 1px;
+        text-indent: -999px;
+        width: 10px;
+    }
+    .carousel-indicators li.active{
+        background: #174873 !important;
     }
     .slideContent{
-        position: absolute;
+        position: relative;
         left: 0;
-        top: 160px;
+        top: -50px;
         right: 0;
         bottom: 0;
         margin: 0 auto;
@@ -479,7 +494,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         h1{
             font-size: 48px;
             font-weight: 700;
-            color: #E79800;
+            color: #174873;
             text-transform: uppercase;
             letter-spacing: 1.5px;
             line-height: 56px;
@@ -487,7 +502,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         p{
             font-size: 14px;
             font-weight: 400;
-            color: #fff;
+            color: #E79800;
             margin-bottom: 36px;
         }
         a{

@@ -1617,74 +1617,81 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     }
 }
 
+
 /*
 -----------------------------clipping page layout----------------------*/
 .clipSecService1{
     position: relative;
     background: #fafafa;
     padding: 20px 0;
-    .secservWedMenu h2{
-        color: #0fa2da;
-        font-size: 16px;
-        font-weight: 600;
-        letter-spacing: 1.5px;
-        padding-top: 20px;
-        line-height: 20px;
-        text-transform: uppercase;
-        margin-bottom: 15px;
-        position: relative;
-        &:before{
-            width: 60px;
-            height: 2px;
-            background: #0fa2da;
-            position: absolute;
-            left: 0;
-            top: 50px;
-            content: '';
-            margin: 0 auto;
-        }
-    }
-    ul li{
-
-        display:block;
-        padding: 10px 0;
-        a{
-            font-size: 15px;
-            padding-top: 20px;
-            color: #a3a3a3;
-            text-transform: capitalize;
-            &:hover{
-                color: #E79800;
-            }
-        }
-    }
-    .secServwedCon{
-
+    .secservWedMenu{
+        background: #fff none repeat scroll 0 0;
+        padding: 15px;
+        position: fixed;
+        z-index: 1;
         h2{
-            color: #174873;
-            font-size: 27px;
-            font-weight: 700;
-            letter-spacing: 0;
-            padding: 7px 0 20px;
-            text-transform: none;
-        }
-        p{
-            color: #727272;
-            line-height: 1.7;
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-        .abPara{
+            color: #0fa2da;
             font-size: 16px;
             font-weight: 600;
-            margin-bottom: 12px;
-
+            letter-spacing: 1.5px;
+            padding-top: 20px;
+            line-height: 20px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            position: relative;
+            &:before{
+                width: 60px;
+                height: 2px;
+                background: #0fa2da;
+                position: absolute;
+                left: 0;
+                top: 50px;
+                content: '';
+                margin: 0 auto;
+            }
         }
-        h3{
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 26px;
-            margin-bottom: 20px;
+        ul li{
+
+            display:block;
+            padding: 10px 0;
+            a{
+                font-size: 15px;
+                padding-top: 20px;
+                color: #a3a3a3;
+                text-transform: capitalize;
+                &:hover{
+                    color: #E79800;
+                }
+            }
+        }
+        .secServwedCon{
+
+            h2{
+                color: #174873;
+                font-size: 27px;
+                font-weight: 700;
+                letter-spacing: 0;
+                padding: 7px 0 20px;
+                text-transform: none;
+            }
+            p{
+                color: #727272;
+                line-height: 1.7;
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+            .abPara{
+                font-size: 16px;
+                font-weight: 600;
+                margin-bottom: 12px;
+
+            }
+            h3{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                margin-bottom: 20px;
+            }
         }
     }
 }
@@ -1999,31 +2006,60 @@ mony reciption section*/
     overflow:hidden;
     width: 100%;
     height: auto;
+    h1{
+        font-size: 80px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        margin: 30px 0;
+        text-transform: capitalize;
+    }
     .mainpric{
-        padding: 50px 0;
+        padding: 30px 0;
+    }
+    .prichingSubmenu{
+        left: 3px;
+        position: fixed;
+        top: 144px;
+        a{
+            border: 1px solid #fff;
+            display: block;
+            font-size: 14px;
+            font-weight:700;
+            padding: 10px;
+            text-transform: uppercase;
+            background: #174873;
+            color: #fff;
+            transition: all ease 300ms;
+            border-radius: 6px;
+            &:hover{
+                background: #E79800;
+            }
+        }
     }
     .prichingpageimg{
         position: relative;
         width: 100%;
         height: auto;
         h1{
-            font-size: 75px;
+            font-size: 49px;
             letter-spacing: 4px;
-            font-weight: 300;
+            font-weight: 400;
             line-height: 60px;
             letter-spacing: 2.5px;
             margin: 20px 0 30px;
+            text-transform: uppercase;
             color: #174873;
         }
         img{
             width: 100%;
             heihgt: auto;
+            margin: 10px 0;
         }
     }
     .prichingpageCont{
         position: relative;
-        margin-top: 20px;
-        
+        margin-top: 27px;
+
         span{
             font-size: 26px;
             font-weight: 700;
@@ -2032,18 +2068,39 @@ mony reciption section*/
             color: #fff;
             border-radius: 4px;
         }
-        h1{
-            font-size: 36px;
-            font-weight: 300;
+        h2{
+            font-size: 21px;
+            font-weight: 400;
             letter-spacing: 1.5px;
-            margin-top: 20px;
+            margin-top: 25px;
+            text-transform: uppercase;
         }
         p{
             color: #727272;
             font-size: 14px;
             line-height: 1.7;
-            margin-top: 25px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        a{
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: capitalize;
+            border-bottom: 1px solid #174873;
+            transition: all ease 500ms;
+            i{
+                font-size: 14px;
+                margin-left: 6px;
+                transition: all ease 500ms;
+            }
+            &:hover{
+                color: #E79800;
+                border-color:#E79800;
+                i{
+                    margin-left:15px;
+                }
+            }
         }
     }
-    
+
 }

@@ -184,7 +184,7 @@
         display: none;
     }
     .headerTop{
-        display: none;
+       
     }
 
     .featureMenu .mainFeatureMenu ul li a {
@@ -219,7 +219,7 @@
     .headerTop {
         background: #174873 none repeat scroll 0 0;
         height: auto;
-        margin-top: 59px;
+        margin-bottom: 59px;
         padding: 0;
         position: relative;
         width: 100%;
@@ -329,7 +329,6 @@
 @media (min-width: 768px) and (max-width:1024px){
     .headerTop {
         background: #174873 none repeat scroll 0 0;
-        display: none;
         height: auto;
         padding: 10px 0;
         position: relative;

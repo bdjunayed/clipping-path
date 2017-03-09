@@ -469,7 +469,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         color: #174873;
     }
     .carousel-indicators li {
-        background-color: #f00;
+        background-color: #ddd;
         border: 1px solid #fff;
         border-radius: 10px;
         cursor: pointer;
@@ -482,28 +482,35 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     .carousel-indicators li.active{
         background: #174873 !important;
     }
+
     .slideContent{
         position: relative;
         left: 0;
-        top: -50px;
+        top: -100px;
         right: 0;
         bottom: 0;
         margin: 0 auto;
         text-align: center;
         display: block;
         h1{
-            font-size: 48px;
-            font-weight: 700;
+            background: #ddd none repeat scroll 0 0;
+            border-radius: 5px;
             color: #174873;
-            text-transform: uppercase;
+            display: block;
+            font-size: 48px;
+            font-weight: 500;
             letter-spacing: 1.5px;
             line-height: 56px;
+            margin: 0 154px;
+            text-transform: uppercase;
+            width: 58%;
         }
         p{
-            font-size: 14px;
+            color: #333;
+            font-size: 25px;
             font-weight: 400;
-            color: #E79800;
             margin-bottom: 36px;
+            text-shadow: 5px 2px 5px #fff;
         }
         a{
             font-size: 14px;
@@ -2101,6 +2108,27 @@ mony reciption section*/
                 }
             }
         }
+    }
+    .prichingSubmenu1{
+        position: fixed;
+        right: 0;
+        top: 140px;
+        a{
+            border: 1px solid #fff;
+            display: block;
+            font-size: 14px;
+            font-weight:700;
+            padding: 10px;
+            text-transform: uppercase;
+            background: #174873;
+            color: #fff;
+            transition: all ease 300ms;
+            border-radius: 6px;
+            &:hover{
+                background: #E79800;
+            }
+        }
+
     }
 
 }

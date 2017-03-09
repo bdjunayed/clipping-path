@@ -358,7 +358,7 @@
     font-size: 30px;
     color: #174873; }
   .sliderSec .carousel-indicators li {
-    background-color: #f00;
+    background-color: #ddd;
     border: 1px solid #fff;
     border-radius: 10px;
     cursor: pointer;
@@ -372,24 +372,30 @@
   .sliderSec .slideContent {
     position: relative;
     left: 0;
-    top: -50px;
+    top: -100px;
     right: 0;
     bottom: 0;
     margin: 0 auto;
     text-align: center;
     display: block; }
     .sliderSec .slideContent h1 {
-      font-size: 48px;
-      font-weight: 700;
+      background: #ddd none repeat scroll 0 0;
+      border-radius: 5px;
       color: #174873;
-      text-transform: uppercase;
+      display: block;
+      font-size: 48px;
+      font-weight: 500;
       letter-spacing: 1.5px;
-      line-height: 56px; }
+      line-height: 56px;
+      margin: 0 154px;
+      text-transform: uppercase;
+      width: 58%; }
     .sliderSec .slideContent p {
-      font-size: 14px;
+      color: #333;
+      font-size: 25px;
       font-weight: 400;
-      color: #E79800;
-      margin-bottom: 36px; }
+      margin-bottom: 36px;
+      text-shadow: 5px 2px 5px #fff; }
     .sliderSec .slideContent a {
       font-size: 14px;
       font-weight: 400;
@@ -1743,3 +1749,20 @@ mony reciption section*/
         border-color: #E79800; }
         .prichingPageSec .prichingpageCont a:hover i {
           margin-left: 15px; }
+  .prichingPageSec .prichingSubmenu1 {
+    position: fixed;
+    right: 0;
+    top: 140px; }
+    .prichingPageSec .prichingSubmenu1 a {
+      border: 1px solid #fff;
+      display: block;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 10px;
+      text-transform: uppercase;
+      background: #174873;
+      color: #fff;
+      transition: all ease 300ms;
+      border-radius: 6px; }
+      .prichingPageSec .prichingSubmenu1 a:hover {
+        background: #E79800; }

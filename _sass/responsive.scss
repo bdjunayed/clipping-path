@@ -8,6 +8,13 @@
 
     .headerMenu {
         padding: 16px 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+        z-index: 111;
+        position: absolute;
+        background: #fff;
         .logo1 img{
             width: 50%;
         }
@@ -50,9 +57,9 @@
                 li a{
                     color: #333;
                 }
-                
+
             }
-            
+
 
         }
 
@@ -177,6 +184,21 @@
     .leftWidget{
         margin-bottom: 20px;
     }
+    .prichingPageSec{
+        margin-top: 50px;
+        h1{
+            font-size: 33px;
+            margin: 10px 0;
+        }
+        .mainpric{
+            padding: 10px 0;
+        }
+
+    }
+    .prichingSubmenu {
+        display: none;
+    }
+
 }
 
 @media (min-width: 360px) and (max-width: 640px){
@@ -184,7 +206,7 @@
         display: none;
     }
     .headerTop{
-        display: none;
+
     }
 
     .featureMenu .mainFeatureMenu ul li a {
@@ -219,7 +241,7 @@
     .headerTop {
         background: #174873 none repeat scroll 0 0;
         height: auto;
-        margin-top: 59px;
+        margin-bottom: 59px;
         padding: 0;
         position: relative;
         width: 100%;
@@ -329,7 +351,6 @@
 @media (min-width: 768px) and (max-width:1024px){
     .headerTop {
         background: #174873 none repeat scroll 0 0;
-        display: none;
         height: auto;
         padding: 10px 0;
         position: relative;
@@ -353,138 +374,163 @@
     }
     .sliderSec{
         padding-top: 0px;
-    }
-
-    .aboutUs .abContent1 h1{
-        color: #174873;
-        font-size: 33px;
-        font-weight: 700;
-        line-height: 56px;
-        text-transform: uppercase;
-        margin-bottom: 20px;
-        span{
-            color: #E79800;
-
-        }
-    }
-    .aboutUs .abContent h1 {
-        color: #174873;
-        display: none;
-        font-size: 33px;
-        font-weight: 700;
-        line-height: 56px;
-        text-transform: uppercase;
-    }
-    .benefitSec{
-        padding: 20px 0 !important;
-        overflow: hidden;
-        .benefitsTitle h1{
-            font-size: 29px !important;
-            margin-bottom: 10px !important;
-        }
-        .singleBenefit {
-            margin-bottom: 15px !important;
-        }
-    }
-    .benefits_featureflow .benefits_featureflowStep a p{
-        margin-bottom: 17px;
-    }
-    .benefits_featureflow .featureflowStep::before {
-        display: none;
-    }
-    .featureMenu {
-
-        .mainFeatureMenu ul li{
-            width: 70px;
-            height: auto;
-            padding: 12px;
-            margin-right: 20px;
-            a{
-                font-size: 12px;
-                img{
-                    width: 50px;
-                    height: auto;
-                }
-
-            }
-        }
-
-    }
-    .featureHide{
-        display: none;
-    }
-    .featureMenu .mainFeatureMenu ul li {
-        height: auto;
-        margin-right: 20px;
-        padding: 12px;
-        width: 96px;
-    }
-    .featureMenufixed {
-
-        top: 168px !important;
-
-    }
-    .featureService1{
-        padding: 40px;
-        .featureSerContent{
-            padding-top: 0px !important;
-            h2{
-                font-size: 26px;
-                line-height: 34px;
-                margin-bottom: -25px !important;
+        .slideContent{
+            top: -20px;
+            h1{
+                background: #ddd none repeat scroll 0 0;
+                border-radius: 5px;
+                color: #174873;
+                display: block;
+                font-size: 28px;
+                font-weight: 500;
+                letter-spacing: 1.5px;
+                line-height: 39px;
+                margin: 0px 59px;
+                text-transform: uppercase;
+                width: 72%;
             }
             p{
-                padding-right: 0;
+                color: #333;
+                font-size: 18px;
+                font-weight: 400;
+                margin-bottom: -4px;
+                text-shadow: 5px 2px 5px #fff;
+            }
+        }
+        .carousel-control span{
+            top: 160px;
+        }
+    }
+        .aboutUs .abContent1 h1{
+            color: #174873;
+            font-size: 33px;
+            font-weight: 700;
+            line-height: 56px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            span{
+                color: #E79800;
+
+            }
+        }
+        .aboutUs .abContent h1 {
+            color: #174873;
+            display: none;
+            font-size: 33px;
+            font-weight: 700;
+            line-height: 56px;
+            text-transform: uppercase;
+        }
+        .benefitSec{
+            padding: 20px 0 !important;
+            overflow: hidden;
+            .benefitsTitle h1{
+                font-size: 29px !important;
+                margin-bottom: 10px !important;
+            }
+            .singleBenefit {
+                margin-bottom: 15px !important;
+            }
+        }
+        .benefits_featureflow .benefits_featureflowStep a p{
+            margin-bottom: 17px;
+        }
+        .benefits_featureflow .featureflowStep::before {
+            display: none;
+        }
+        .featureMenu {
+
+            .mainFeatureMenu ul li{
+                width: 70px;
+                height: auto;
+                padding: 12px;
+                margin-right: 20px;
+                a{
+                    font-size: 12px;
+                    img{
+                        width: 50px;
+                        height: auto;
+                    }
+
+                }
+            }
+
+        }
+        .featureHide{
+            display: none;
+        }
+        .featureMenu .mainFeatureMenu ul li {
+            height: auto;
+            margin-right: 20px;
+            padding: 12px;
+            width: 96px;
+        }
+        .featureMenufixed {
+
+            top: 168px !important;
+
+        }
+        .featureService1{
+            padding: 40px;
+            .featureSerContent{
+                padding-top: 0px !important;
+                h2{
+                    font-size: 26px;
+                    line-height: 34px;
+                    margin-bottom: -25px !important;
+                }
+                p{
+                    padding-right: 0;
+                    margin-bottom: 12px;
+                }
+            }
+            .featureSerImg{
                 margin-bottom: 12px;
             }
-        }
-        .featureSerImg{
-            margin-bottom: 12px;
-        }
 
-    }
-    .margin-left50 {
-        margin: 0;
-    }
-    .featureService1 .featureSerImg img {
-        height: auto;
-        width: 100%;
-    }
-    .feature-team{
-        padding: 40px 0;
-        .featureTeamTitle{
-            h2{
-                font-size: 30px;
-                margin-bottom: 20px !important;
-            }
-            p{
-                font-size: 22px;
-                &:before{
-                    width: 28%;
+        }
+        .margin-left50 {
+            margin: 0;
+        }
+        .featureService1 .featureSerImg img {
+            height: auto;
+            width: 100%;
+        }
+        .feature-team{
+            padding: 40px 0;
+            .featureTeamTitle{
+                h2{
+                    font-size: 30px;
+                    margin-bottom: 20px !important;
                 }
-                &:after{
-                    width: 28%;
+                p{
+                    font-size: 22px;
+                    &:before{
+                        width: 28%;
+                    }
+                    &:after{
+                        width: 28%;
+                    }
                 }
             }
         }
-    }
-    .featureMenufixed {
-        top: 151px;
-    }
-    .footer{
-        .leftWidget{
-            margin-bottom: 20px;
+        .featureMenufixed {
+            top: 151px;
+        }
+        .footer{
+            .leftWidget{
+                margin-bottom: 20px;
+            }
+        }
+        .footerBootm{
+            .foBottmcont p{
+                font-size: 13px;
+            }
+            .mainMenu.footerMenu ul li a{
+                font-size: 13px;
+            }
         }
     }
-    .footerBootm{
-        .foBottmcont p{
-            font-size: 13px;
-        }
-        .mainMenu.footerMenu ul li a{
-            font-size: 13px;
-        }
-    }
-}
-@media(min-width:1021px) and (max-width: 1199px){
+    @media(min-width:1021px) and (max-width: 1199px){
 
-}
+    }

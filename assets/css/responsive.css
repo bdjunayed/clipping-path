@@ -13,15 +13,16 @@
     position: absolute;
     background: #fff; }
     .headerMenu .logo1 img {
-      width: 50%; }
+      width: 50%;
+      margin-left: 18px; }
     .headerMenu .MobileMenu1 {
       cursor: pointer !important;
       display: block;
       height: auto;
       line-height: 0.2;
       position: absolute;
-      right: 23px;
-      top: -22px;
+      right: 0px;
+      top: -20px;
       width: 30px;
       z-index: 9999; }
     .headerMenu .mainMenu ul {
@@ -142,6 +143,25 @@
 @media (min-width: 360px) and (max-width: 640px) {
   .featureMenu {
     display: none; }
+  .headerTop {
+    padding: 12px 0; }
+  .sliderSec .slideContent {
+    top: -24px; }
+    .sliderSec .slideContent h1 {
+      font-size: 28px;
+      margin: 0 98px; }
+    .sliderSec .slideContent p {
+      font-size: 15px; }
+  .sliderSec .carousel-control span {
+    bottom: 0;
+    color: #174873;
+    font-family: "fontawesome";
+    font-size: 30px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 94px; }
   .featureMenu .mainFeatureMenu ul li a {
     color: #333;
     font-family: "Lato",sans-serif;
@@ -183,9 +203,9 @@
       height: 100%;
       width: 50%; }
     .headerMenu .MobileMenu1 {
-      top: -32px; }
+      top: -16px; }
     .headerMenu .mainMenu ul {
-      background: #fff;
+      background: #333;
       padding: 10px; }
       .headerMenu .mainMenu ul li {
         display: block;
@@ -193,14 +213,18 @@
         margin-top: 0;
         padding-bottom: 8px;
         text-align: left;
-        color: #fff; }
+        color: #fff;
+        border: none; }
         .headerMenu .mainMenu ul li a {
           color: #fff !important; }
+          .headerMenu .mainMenu ul li a:hover {
+            border-bottom: none;
+            color: #E79800; }
       .headerMenu .mainMenu ul .submenu {
         left: 60px;
         top: 40px; }
         .headerMenu .mainMenu ul .submenu li a {
-          color: #fff !important; }
+          color: #174873 !important; }
   .aboutUs .abContent a {
     background: #174873 none repeat scroll 0 0;
     border-radius: 4px;
@@ -247,6 +271,96 @@
   .feature-team .featureTeamTitle p::before {
     width: 25%; } }
 
+@media (min-width: 414px) and (max-width: 767px) {
+  #menu {
+    display: none; }
+  .headerTop {
+    margin-bottom: 0; }
+  .headerMenu {
+    padding: 16px 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 111;
+    position: absolute;
+    background: #fff; }
+    .headerMenu .logo1 img {
+      width: 50%; }
+    .headerMenu .MobileMenu1 {
+      cursor: pointer !important;
+      display: block;
+      height: auto;
+      line-height: 0.2;
+      position: absolute;
+      right: 23px;
+      top: -22px;
+      width: 30px;
+      z-index: 9999; }
+    .headerMenu .mainMenu ul {
+      background: #111;
+      padding: 10px; }
+      .headerMenu .mainMenu ul li {
+        display: block;
+        margin-right: 0;
+        margin-top: 0;
+        padding-bottom: 8px;
+        text-align: left; }
+        .headerMenu .mainMenu ul li a {
+          color: #fff; }
+          .headerMenu .mainMenu ul li a:hover {
+            border-bottom: none; }
+  .sliderSec {
+    margin-top: 50px; }
+  .sliderSec .slideContent {
+    top: 0px; }
+    .sliderSec .slideContent h1 {
+      font-size: 20px;
+      margin: 0 64px;
+      width: 67%;
+      line-height: 2; }
+    .sliderSec .slideContent p {
+      margin-bottom: 5px; }
+    .sliderSec .slideContent a {
+      background: #174873 none repeat scroll 0 0;
+      border: 1px solid #fff;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 400;
+      padding: 6px 18px;
+      transition: all 500ms ease 0s; }
+  .sliderSec .carousel-control span {
+    bottom: 0;
+    color: #174873;
+    font-family: "fontawesome";
+    font-size: 30px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 114px; }
+  .sliderSec .carousel-indicators {
+    bottom: 10px;
+    left: 50%;
+    list-style: outside none none;
+    margin-left: -30%;
+    padding-left: 0;
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    z-index: 15;
+    display: none; }
+  .featureMenu .mainFeatureMenu ul li {
+    box-shadow: 0 0 1px #ddd;
+    display: inline-block;
+    height: auto;
+    list-style: outside none none;
+    padding: 15px;
+    text-align: center;
+    width: 99px; }
+    .featureMenu .mainFeatureMenu ul li a {
+      font-size: 10px; } }
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .headerTop {
     background: #174873 none repeat scroll 0 0;
@@ -255,15 +369,23 @@
     position: relative;
     width: 100%; }
   .headerMenu .logo1 {
-    width: 50%;
+    width: 100%;
     display: inline-block; }
   .headerMenu .logo1 img {
     width: 100%;
     margin-bottom: 20px; }
   .headerMenu .mainMenu ul li .submenu {
     left: 20%; }
+  .headerMenu .mainMenu ul li a {
+    color: #174873;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 600ms ease 0s; }
   .sliderSec {
-    padding-top: 0px; }
+    margin-top: 0px; }
     .sliderSec .slideContent {
       top: -20px; }
       .sliderSec .slideContent h1 {
@@ -282,7 +404,7 @@
         color: #333;
         font-size: 18px;
         font-weight: 400;
-        margin-bottom: -4px;
+        margin-bottom: 9px;
         text-shadow: 5px 2px 5px #fff; }
     .sliderSec .carousel-control span {
       top: 160px; }
@@ -332,7 +454,7 @@
     padding: 12px;
     width: 96px; }
   .featureMenufixed {
-    top: 168px !important; }
+    top: 141px !important; }
   .featureService1 {
     padding: 40px; }
     .featureService1 .featureSerContent {
@@ -363,10 +485,55 @@
       .feature-team .featureTeamTitle p:after {
         width: 28%; }
   .featureMenufixed {
-    top: 151px; }
+    top: 141px; }
   .footer .leftWidget {
     margin-bottom: 20px; }
   .footerBootm .foBottmcont p {
     font-size: 13px; }
   .footerBootm .mainMenu.footerMenu ul li a {
     font-size: 13px; } }
+
+@media (min-width: 990px) and (max-width: 1025px) {
+  .featureMenufixed {
+    top: 74px !important; }
+  .featureMenu .mainFeatureMenu ul li {
+    box-shadow: 0 0 1px #ddd;
+    display: inline-block;
+    height: auto;
+    list-style: outside none none;
+    padding: 21px;
+    text-align: center;
+    width: 131px; }
+  .sliderSec {
+    margin-top: 0px; } }
+
+@media (min-width: 991px) and (max-width: 1199px) {
+  .headerMenu .logo1 {
+    display: inline-block;
+    width: 100%; }
+  .featureMenu .mainFeatureMenu ul li {
+    box-shadow: 0 0 1px #ddd;
+    display: inline-block;
+    height: auto;
+    list-style: outside none none;
+    padding: 21px;
+    text-align: center;
+    width: 132px; }
+  .sliderSec .slideContent h1 {
+    background: #ddd none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #174873;
+    display: block;
+    font-size: 47px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 56px;
+    margin: 0 121px;
+    text-transform: uppercase;
+    width: 73%; } }
+
+@media (min-width: 900px) and (max-width: 1278px) {
+  .sliderSec .slideContent {
+    top: -46px; }
+    .sliderSec .slideContent p {
+      margin-bottom: 15px; } }

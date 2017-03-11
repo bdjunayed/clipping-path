@@ -129,7 +129,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
 /*-----------------------header top end-----------*/
 /*-----------------------header menu start-----------*/
 .headerMenu{
-    padding: 26px 0;
+    padding: 15px 0;
     left: 0;
     top: 32px;
     width: 100%;
@@ -497,7 +497,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
             border-radius: 5px;
             color: #174873;
             display: block;
-            font-size: 48px;
+            font-size: 47px;
             font-weight: 500;
             letter-spacing: 1.5px;
             line-height: 56px;
@@ -2014,7 +2014,7 @@ mony reciption section*/
     width: 100%;
     height: auto;
     h1{
-        font-size: 80px;
+        font-size: 40px;
         font-weight: 100;
         letter-spacing: 1px;
         margin: 30px 0;
@@ -2060,7 +2060,7 @@ mony reciption section*/
         img{
             width: 80%;
             heihgt: auto;
-            margin: 10px 0;
+            margin: 1px 0;
         }
     }
     .prichingpageCont{
@@ -2068,10 +2068,10 @@ mony reciption section*/
         margin-top: 27px;
 
         span{
-            font-size: 26px;
+            font-size: 20px;
             font-weight: 700;
             background: #174873;
-            padding: 12px 25px;
+            padding: 3px 24px;
             color: #fff;
             border-radius: 4px;
         }
@@ -2129,6 +2129,14 @@ mony reciption section*/
             }
         }
 
+    }
+    .test{
+        box-shadow: 2px 2px 9px #ddd;
+        margin: 36px 0;
+        padding: 0 18px 0 0;
+    }
+    .test1{
+        padding: 15px 18px;
     }
 
 }

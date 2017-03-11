@@ -454,7 +454,7 @@
     padding: 12px;
     width: 96px; }
   .featureMenufixed {
-    top: 141px !important; }
+    top: 66px !important; }
   .featureService1 {
     padding: 40px; }
     .featureService1 .featureSerContent {
@@ -493,15 +493,15 @@
   .footerBootm .mainMenu.footerMenu ul li a {
     font-size: 13px; } }
 
-@media (min-width: 990px) and (max-width: 1025px) {
+@media (min-width: 990px) and (max-width: 1026px) {
   .featureMenufixed {
-    top: 74px !important; }
+    top: 64px !important; }
   .featureMenu .mainFeatureMenu ul li {
     box-shadow: 0 0 1px #ddd;
     display: inline-block;
     height: auto;
     list-style: outside none none;
-    padding: 21px;
+    padding: 15px;
     text-align: center;
     width: 131px; }
   .sliderSec {
@@ -537,3 +537,13 @@
     top: -46px; }
     .sliderSec .slideContent p {
       margin-bottom: 15px; } }
+
+@media (min-width: 1025px) and (max-width: 1195px) {
+  .featureMenu .mainFeatureMenu ul li {
+    box-shadow: 0 0 1px #ddd;
+    display: inline-block;
+    height: auto;
+    list-style: outside none none;
+    padding: 13px;
+    text-align: center;
+    width: 153px; } }

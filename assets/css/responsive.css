@@ -142,6 +142,25 @@
 @media (min-width: 360px) and (max-width: 640px) {
   .featureMenu {
     display: none; }
+  .headerTop {
+    padding: 12px 0; }
+  .sliderSec .slideContent {
+    top: -24px; }
+    .sliderSec .slideContent h1 {
+      font-size: 28px;
+      margin: 0 98px; }
+    .sliderSec .slideContent p {
+      font-size: 15px; }
+  .sliderSec .carousel-control span {
+    bottom: 0;
+    color: #174873;
+    font-family: "fontawesome";
+    font-size: 30px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 94px; }
   .featureMenu .mainFeatureMenu ul li a {
     color: #333;
     font-family: "Lato",sans-serif;
@@ -185,7 +204,7 @@
     .headerMenu .MobileMenu1 {
       top: -32px; }
     .headerMenu .mainMenu ul {
-      background: #fff;
+      background: #333;
       padding: 10px; }
       .headerMenu .mainMenu ul li {
         display: block;
@@ -193,14 +212,18 @@
         margin-top: 0;
         padding-bottom: 8px;
         text-align: left;
-        color: #fff; }
+        color: #fff;
+        border: none; }
         .headerMenu .mainMenu ul li a {
           color: #fff !important; }
+          .headerMenu .mainMenu ul li a:hover {
+            border-bottom: none;
+            color: #E79800; }
       .headerMenu .mainMenu ul .submenu {
         left: 60px;
         top: 40px; }
         .headerMenu .mainMenu ul .submenu li a {
-          color: #fff !important; }
+          color: #174873 !important; }
   .aboutUs .abContent a {
     background: #174873 none repeat scroll 0 0;
     border-radius: 4px;
@@ -332,7 +355,7 @@
     padding: 12px;
     width: 96px; }
   .featureMenufixed {
-    top: 168px !important; }
+    top: 141px !important; }
   .featureService1 {
     padding: 40px; }
     .featureService1 .featureSerContent {
@@ -363,7 +386,7 @@
       .feature-team .featureTeamTitle p:after {
         width: 28%; }
   .featureMenufixed {
-    top: 151px; }
+    top: 141px; }
   .footer .leftWidget {
     margin-bottom: 20px; }
   .footerBootm .foBottmcont p {

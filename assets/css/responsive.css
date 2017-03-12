@@ -3,6 +3,11 @@
     display: none; }
   #menu {
     display: none; }
+  .clippingserviceContent.headpp {
+    margin-top: 53px; }
+    .clippingserviceContent.headpp h1 {
+      font-size: 22px;
+      line-height: 20px; }
   .headerMenu {
     padding: 16px 0;
     left: 0;
@@ -67,7 +72,7 @@
     position: relative;
     width: 100%; }
   .featureService1 .headline5 {
-    margin-top: 40px; }
+    margin-top: 0px; }
   .featureService1 .featureSerContent h2 {
     color: #333;
     font-size: 22px;
@@ -94,11 +99,15 @@
     color: #fff;
     font-size: 10px;
     text-transform: capitalize;
-    width: 100%; } }
+    width: 100%; }
+  .prichingPageSec .prichingSubmenu {
+    display: none; } }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .headerTop {
     display: none; }
+  .clippingserviceContent.headpp {
+    margin-top: 53px; }
   #menu {
     display: none; }
   .headerMenu {
@@ -192,7 +201,7 @@
   .benefits_featureflow .benefits_featureflowStep a p {
     margin-bottom: 18px; }
   .featureService1 {
-    margin-top: 50px;
+    margin-top: 0px;
     padding: 0; }
   .featureService1 .featureSerContent {
     padding-top: 20px; }
@@ -239,7 +248,30 @@
     .prichingPageSec .mainpric {
       padding: 10px 0; }
   .prichingSubmenu {
-    display: none; } }
+    display: none; }
+  .mainDiscuss {
+    padding: 13px 11px; }
+    .mainDiscuss .DiscusBtnCon h2 {
+      font-size: 17px; }
+    .mainDiscuss .DiscusBtnCon1 .DiscusBTn {
+      background: #88ba00 none repeat scroll 0 0;
+      border-radius: 9px;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 800;
+      height: 57px;
+      overflow: hidden;
+      padding: 6px 18px;
+      position: relative;
+      text-transform: uppercase; }
+  .DePSingUpBtn {
+    padding: 10px 0 0; }
+    .DePSingUpBtn h2 {
+      color: #0078ae;
+      display: block;
+      font-size: 19px;
+      font-weight: 700;
+      padding-bottom: 20px; } }
 
 @media (min-width: 360px) and (max-width: 640px) {
   .featureMenu {
@@ -286,7 +318,18 @@
     position: fixed;
     top: 67px;
     width: 100%;
-    z-index: 1; } }
+    z-index: 1; }
+  .mainDiscuss {
+    padding: 30px 10px; }
+    .mainDiscuss .DiscusBtnCon1 {
+      float: left;
+      margin-left: 13px;
+      margin-top: 24px; }
+    .mainDiscuss .DiscusBtnCon h2 {
+      color: #0fa2da;
+      display: inline-block;
+      font-size: 28px;
+      font-weight: 700; } }
 
 @media (min-width: 484px) and (max-width: 640px) {
   .headerTop {
@@ -450,7 +493,28 @@
       font-size: 10px; }
   .featureService1 {
     box-shadow: 2px 2px 5px #ddd;
-    padding: 24px; } }
+    padding: 24px; }
+  .prichingPageSec .prichingSubmenu {
+    display: none; }
+  .mainDiscuss {
+    padding: 30px 10px; }
+    .mainDiscuss .DiscusBtnCon1 {
+      float: left;
+      margin-left: 13px;
+      margin-top: 24px; }
+    .mainDiscuss .DiscusBtnCon h2 {
+      color: #0fa2da;
+      display: inline-block;
+      font-size: 28px;
+      font-weight: 700; }
+  .DePSingUpBtn {
+    padding: 17px 0 0; }
+    .DePSingUpBtn h2 {
+      color: #0078ae;
+      display: block;
+      font-size: 25px;
+      font-weight: 700;
+      padding-bottom: 20px; } }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .headerTop {
@@ -557,7 +621,7 @@
   .featureMenufixed {
     top: 66px !important; }
   .featureService1 {
-    padding: 40px; }
+    padding: 30px; }
     .featureService1 .featureSerContent {
       padding-top: 0px !important; }
       .featureService1 .featureSerContent h2 {
@@ -595,7 +659,29 @@
     font-size: 13px; }
   .featureService1 .featureSerContent .serbt {
     margin-bottom: 23px;
-    margin-top: 13px; } }
+    margin-top: 13px; }
+  .prichingPageSec .prichingSubmenu {
+    display: none; }
+  .mainDiscuss {
+    padding: 36px 22px; }
+    .mainDiscuss .DiscusBtnCon1 {
+      margin-left: 32px; }
+      .mainDiscuss .DiscusBtnCon1 .DiscusBTn {
+        background: #88ba00 none repeat scroll 0 0;
+        border-radius: 9px;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        height: 57px;
+        overflow: hidden;
+        padding: 13px 14px;
+        position: relative;
+        text-transform: uppercase; }
+    .mainDiscuss .DiscusBtnCon h2 {
+      color: #0fa2da;
+      display: inline-block;
+      font-size: 29px;
+      font-weight: 700; } }
 
 @media (min-width: 990px) and (max-width: 1026px) {
   .featureMenufixed {
@@ -640,7 +726,9 @@
   .sliderSec .slideContent {
     top: -46px; }
     .sliderSec .slideContent p {
-      margin-bottom: 15px; } }
+      margin-bottom: 15px; }
+  .prichingPageSec .prichingSubmenu {
+    display: none; } }
 
 @media (min-width: 1025px) and (max-width: 1195px) {
   .featureMenu .mainFeatureMenu ul li {

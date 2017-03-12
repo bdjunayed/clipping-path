@@ -82,10 +82,10 @@ $(document).ready(function () {
     $(window).on('scroll', function () {
         if ($(window).scrollTop() > 500)
         {
-            $(".featureMenu").addClass('featureMenufixed');
+            $(".").addClass('featureMenufixed');
         } else
         {
-            $(".featureMenu").removeClass('featureMenufixed');
+            $(".").removeClass('featureMenufixed');
         }
     });
     /* feature menu fixed*/

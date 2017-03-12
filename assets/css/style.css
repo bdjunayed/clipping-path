@@ -260,6 +260,10 @@
   text-transform: capitalize;
   line-height: 25px;
   margin-bottom: 9px; }
+  .officehour li a {
+    color: #fff; }
+    .officehour li a:hover {
+      color: #E79800; }
 
 .footerRightWidget {
   width: 100%;
@@ -590,7 +594,7 @@
   position: relative;
   width: 100%;
   height: auto;
-  padding: 80px 0; }
+  padding: 22px 0; }
   .benefitSec .benefitsTitle {
     position: relative; }
     .benefitSec .benefitsTitle h1 {
@@ -598,7 +602,7 @@
       font-size: 40px;
       font-weight: 300;
       line-height: 50px;
-      margin-bottom: 60px; }
+      margin-bottom: 18px; }
   .benefitSec .singleBenefit {
     position: relative;
     margin-bottom: 60px; }
@@ -655,9 +659,9 @@
     background: #fff;
     height: auto;
     z-index: 1;
-    padding: 50px; }
+    padding: 13px 0 0 27px; }
     .benefitsListSec .mainbenefitList .benelistItem .benIcon {
-      width: 10%;
+      width: 6%;
       height: auto;
       float: left; }
       .benefitsListSec .mainbenefitList .benelistItem .benIcon i {
@@ -737,15 +741,15 @@
       height: auto;
       list-style: outside none none;
       width: 186px;
-      padding: 30px;
+      padding: 20px;
       text-align: center;
       box-shadow: 0 0px 1px #ddd; }
       .featureMenu .mainFeatureMenu ul li a {
         color: #333;
         font-family: "Lato",sans-serif;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 26px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
         text-transform: uppercase;
         white-space: nowrap; }
       .featureMenu .mainFeatureMenu ul li:hover {
@@ -760,7 +764,7 @@
   position: relative;
   width: 100%;
   height: auto;
-  padding: 80px; }
+  padding: 25px; }
   .featureService1 .featureSerContent {
     position: relative; }
     .featureService1 .featureSerContent h2 {
@@ -783,7 +787,8 @@
         color: #fff;
         padding: 10px 40px;
         border-radius: 4px;
-        transition: .3s; }
+        transition: .3s;
+        box-shadow: 2px 1px 3px #333; }
         .featureService1 .featureSerContent .serbt a:hover {
           background: #E79800; }
   .featureService1 .featureSerImg {
@@ -1223,56 +1228,69 @@
   position: relative;
   width: 100%; }
 
-.DiscusBtnCon {
-  border: 1px solid #ddd;
-  height: 100%;
-  padding: 50px 92px;
+.mainDiscuss1 {
+  padding: 30px !important; }
+  .mainDiscuss1 .DiscusBtnCon h2 {
+    font-size: 29px !important; }
+  .mainDiscuss1 .DiscusBtnCon1 {
+    margin-top: 10px !important; }
+
+.mainDiscuss {
   width: 100%;
+  padding: 35px 92px;
+  border: 1px solid #ddd;
   position: relative;
-  border-radius: 4px; }
-  .DiscusBtnCon:after {
+  border-radius: 4px;
+  margin: 20px auto;
+  box-shadow: 1px 1px 6px #ddd; }
+  .mainDiscuss:after {
     position: absolute;
     content: '';
     left: 0;
     bottom: 0;
     width: 100%;
     height: 3px;
-    background: #0fa2da; }
-  .DiscusBtnCon h2 {
-    color: #0fa2da;
-    display: inline-block;
-    font-size: 42px;
-    font-weight: 700; }
-  .DiscusBtnCon .DiscusBTn {
-    background: #88ba00 none repeat scroll 0 0;
-    border-radius: 9px;
-    color: #fff;
-    font-size: 17px;
-    font-weight: 700;
-    height: 57px;
-    margin-left: 42px;
-    padding: 15px 43px;
-    position: relative;
-    text-transform: uppercase;
-    width: 246px;
-    z-index: 999;
-    overflow: hidden; }
-    .DiscusBtnCon .DiscusBTn:hover:before {
-      visibility: visible;
-      opacity: 1;
-      transition: all 0.25s cubic-bezier(0.66, 0.36, 0.17, 0.91);
-      height: 57px;
-      top: 57px; }
-  .DiscusBtnCon .desBtn {
+    background: #174873; }
+  .mainDiscuss .DiscusBtnCon {
     float: left; }
-  .DiscusBtnCon > a > i {
-    padding-left: 19px; }
+    .mainDiscuss .DiscusBtnCon h2 {
+      color: #174873;
+      display: inline-block;
+      font-size: 42px;
+      font-weight: 300; }
+  .mainDiscuss .DiscusBtnCon1 {
+    float: left;
+    margin-left: 30px;
+    margin-top: 16px; }
+    .mainDiscuss .DiscusBtnCon1 .DiscusBTn {
+      background: #E79800 none repeat scroll 0 0;
+      border-radius: 9px;
+      color: #fff;
+      font-size: 17px;
+      font-weight: 700;
+      height: 57px;
+      padding: 13px 36px;
+      position: relative;
+      text-transform: uppercase;
+      overflow: hidden;
+      box-shadow: 0px 2px 4px #333; }
+      .mainDiscuss .DiscusBtnCon1 .DiscusBTn:hover:before {
+        visibility: visible;
+        opacity: 1;
+        transition: all 0.25s cubic-bezier(0.66, 0.36, 0.17, 0.91);
+        height: 57px;
+        top: 57px; }
+    .mainDiscuss .DiscusBtnCon1 .desBtn {
+      float: left; }
+    .mainDiscuss .DiscusBtnCon1 > a > i {
+      padding-left: 19px; }
 
 .DPageSingup {
   width: 100%;
   height: 100%;
   position: relative;
-  border-top: 2px solid #e8e8e8; }
+  border-top: 2px solid #e8e8e8;
+  margin-top: 30px; }
 
 .DePSingUpBtn {
   padding: 60px 0 0; }
@@ -1327,13 +1345,12 @@
 -----------------------------clipping page layout----------------------*/
 .clipSecService1 {
   position: relative;
-  background: #fafafa;
   padding: 20px 0; }
   .clipSecService1 .secservWedMenu {
     background: #fff none repeat scroll 0 0;
     padding: 15px;
     position: fixed;
-    z-index: 1; }
+    z-index: 0; }
     .clipSecService1 .secservWedMenu h2 {
       color: #0fa2da;
       font-size: 16px;
@@ -1363,27 +1380,30 @@
         text-transform: capitalize; }
         .clipSecService1 .secservWedMenu ul li a:hover {
           color: #E79800; }
-    .clipSecService1 .secservWedMenu .secServwedCon h2 {
-      color: #174873;
-      font-size: 27px;
-      font-weight: 700;
-      letter-spacing: 0;
-      padding: 7px 0 20px;
-      text-transform: none; }
-    .clipSecService1 .secservWedMenu .secServwedCon p {
-      color: #727272;
-      line-height: 1.7;
-      font-size: 14px;
-      margin-bottom: 20px; }
-    .clipSecService1 .secservWedMenu .secServwedCon .abPara {
-      font-size: 16px;
-      font-weight: 600;
-      margin-bottom: 12px; }
-    .clipSecService1 .secservWedMenu .secServwedCon h3 {
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 26px;
-      margin-bottom: 20px; }
+  .clipSecService1 .secServwedCon h2 {
+    color: #174873;
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 0 20px;
+    text-transform: none; }
+  .clipSecService1 .secServwedCon p {
+    color: #727272;
+    line-height: 1.7;
+    font-size: 14px;
+    margin-bottom: 20px; }
+  .clipSecService1 .secServwedCon .abPara {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px; }
+  .clipSecService1 .secServwedCon h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px; }
+
+.clipSecService1.clipSecService2 .secservWedMenu.secservWedMenu1 {
+  position: relative; }
 
 /*-----------------------accordian---------------------*/
 .collapHead {
@@ -1553,14 +1573,14 @@ mony reciption section*/
 
 /*--------------clipping path service------------*/
 .clippingserviceContent h1 {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 300;
   line-height: 28px;
   margin: 20px 0; }
 
 .clippingserviceContent p {
-  color: #777;
-  font-size: 15px;
+  color: #777777;
+  font-size: 16px;
   line-height: 26px;
   margin-bottom: 20px;
   text-align: justify; }
@@ -1682,20 +1702,20 @@ mony reciption section*/
   .prichingPageSec .prichingSubmenu {
     left: 3px;
     position: fixed;
-    top: 144px; }
+    top: 144px;
+    z-index: 999; }
     .prichingPageSec .prichingSubmenu a {
-      border: 1px solid #fff;
       display: block;
       font-size: 14px;
-      font-weight: 700;
+      font-weight: 300;
       padding: 10px;
-      text-transform: uppercase;
-      background: #174873;
-      color: #fff;
+      text-transform: capitalize;
+      background: rgba(23, 72, 115, 0.1);
+      color: #174873;
       transition: all ease 300ms;
-      border-radius: 6px; }
-      .prichingPageSec .prichingSubmenu a:hover {
-        background: #E79800; }
+      border-radius: 6px;
+      margin: 5px 0;
+      z-index: 1; }
   .prichingPageSec .prichingpageimg {
     position: relative;
     width: 100%;

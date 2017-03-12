@@ -727,6 +727,7 @@
 .featureMenu {
   width: 100%;
   height: auto;
+  position: relative;
   background: #FAFAFA; }
   .featureMenu .mainFeatureMenu ul {
     padding: 0;

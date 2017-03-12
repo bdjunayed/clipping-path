@@ -244,6 +244,9 @@
     .mainFeatureMenu{
         display: none;
     }
+    .featureMenu {
+        background: none;
+    }
     .benefitsListSec .mainbenefitList .benelistItem .benIcon i{
         font-size: 37px;
     }
@@ -532,11 +535,7 @@
             width: 50%;
         }
         .MobileMenu1 {
-            cursor: pointer !important;
             display: block;
-            height: auto;
-            line-height: 0.2;
-            position: absolute;
             right: 23px;
             top: -22px;
             width: 30px;
@@ -558,7 +557,16 @@
                     }
                 }
             }
+            .sercIcon i{
+                color: #fff;
+            }
+            .user1 i{
+                color: #fff;
+            }
         }
+    }
+    .margin-left50 {
+        margin-left: 0;
     }
     .featureService1 .featureSerContent .serbt {
         margin-bottom: 23px;
@@ -579,37 +587,18 @@
             margin-bottom: 5px;
         }
         a{
-            background: #174873 none repeat scroll 0 0;
-            border: 1px solid #fff;
-            color: #fff;
+
             font-size: 12px;
-            font-weight: 400;
             padding: 6px 18px;
-            transition: all 500ms ease 0s;
         }
 
     }
     .sliderSec .carousel-control span {
-        bottom: 0;
-        color: #174873;
-        font-family: "fontawesome";
-        font-size: 30px;
-        left: 0;
-        margin: 0 auto;
-        position: absolute;
-        right: 0;
-        top: 114px;
+
+        top: 105px;
     }
     .sliderSec .carousel-indicators {
-        bottom: 10px;
-        left: 50%;
-        list-style: outside none none;
-        margin-left: -30%;
-        padding-left: 0;
-        position: absolute;
-        text-align: center;
-        width: 60%;
-        z-index: 15;
+
         display: none;
     }
     .featureHide{
@@ -628,6 +617,10 @@
         }
     }
 
+    .featureService1 {
+        box-shadow: 2px 2px 5px #ddd;
+        padding: 24px;
+    }
 }
 
 @media (min-width: 768px) and (max-width:1024px){
@@ -907,5 +900,10 @@
         padding: 13px;
         text-align: center;
         width: 153px;
+    }
+}
+@media(min-width:1500px) and (max-width: 2500px){
+    .sliderSec .carousel-control span {
+        display: none;
     }
 }

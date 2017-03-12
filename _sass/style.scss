@@ -910,6 +910,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
 .featureMenu{
     width: 100%;
     height: auto;
+    position: relative;
     background: #FAFAFA;
     .mainFeatureMenu ul{
         padding: 0;

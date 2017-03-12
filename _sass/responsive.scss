@@ -5,6 +5,13 @@
     #menu{
         display: none;
     }
+    .clippingserviceContent.headpp {
+        margin-top: 53px;
+        h1{
+            font-size: 22px;
+            line-height: 20px;
+        }
+    }
     .headerMenu {
         padding: 16px 0;
         left: 0;
@@ -89,7 +96,7 @@
         width: 100%;
     }
     .featureService1 .headline5{
-        margin-top: 40px;
+        margin-top: 0px;
     }
 
     .featureService1 .featureSerContent h2 {
@@ -126,10 +133,16 @@
         text-transform: capitalize;
         width: 100%;
     }
+    .prichingPageSec .prichingSubmenu {
+        display: none;
+    }
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .headerTop{
         display: none;
+    }
+    .clippingserviceContent.headpp {
+        margin-top: 53px;
     }
     #menu{
         display: none;
@@ -244,6 +257,9 @@
     .mainFeatureMenu{
         display: none;
     }
+    .featureMenu {
+        background: none;
+    }
     .benefitsListSec .mainbenefitList .benelistItem .benIcon i{
         font-size: 37px;
     }
@@ -263,7 +279,7 @@
 
     }
     .featureService1{
-        margin-top: 50px;
+        margin-top: 0px;
         padding: 0;
     }
     .featureService1 .featureSerContent {
@@ -329,6 +345,34 @@
     .prichingSubmenu {
         display: none;
     }
+    .mainDiscuss {
+        padding: 13px 11px;
+        .DiscusBtnCon h2 {
+            font-size: 17px;
+        }
+        .DiscusBtnCon1 .DiscusBTn {
+            background: #88ba00 none repeat scroll 0 0;
+            border-radius: 9px;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 800;
+            height: 57px;
+            overflow: hidden;
+            padding: 6px 18px;
+            position: relative;
+            text-transform: uppercase;
+        }
+    }
+    .DePSingUpBtn {
+        padding: 10px 0 0;
+        h2 {
+            color: #0078ae;
+            display: block;
+            font-size: 19px;
+            font-weight: 700;
+            padding-bottom: 20px;
+        }
+    }
 
 }
 
@@ -393,6 +437,22 @@
         width: 100%;
         z-index: 1;
     }
+
+    .mainDiscuss {
+        padding: 30px 10px;
+        .DiscusBtnCon1 {
+            float: left;
+            margin-left: 13px;
+            margin-top: 24px;
+        }
+        .DiscusBtnCon h2 {
+            color: #0fa2da;
+            display: inline-block;
+            font-size: 28px;
+            font-weight: 700;
+        }
+    }
+
 }
 @media (min-width: 484px) and (max-width:640px){
     .headerTop {
@@ -532,11 +592,7 @@
             width: 50%;
         }
         .MobileMenu1 {
-            cursor: pointer !important;
             display: block;
-            height: auto;
-            line-height: 0.2;
-            position: absolute;
             right: 23px;
             top: -22px;
             width: 30px;
@@ -558,7 +614,16 @@
                     }
                 }
             }
+            .sercIcon i{
+                color: #fff;
+            }
+            .user1 i{
+                color: #fff;
+            }
         }
+    }
+    .margin-left50 {
+        margin-left: 0;
     }
     .featureService1 .featureSerContent .serbt {
         margin-bottom: 23px;
@@ -579,37 +644,18 @@
             margin-bottom: 5px;
         }
         a{
-            background: #174873 none repeat scroll 0 0;
-            border: 1px solid #fff;
-            color: #fff;
+
             font-size: 12px;
-            font-weight: 400;
             padding: 6px 18px;
-            transition: all 500ms ease 0s;
         }
 
     }
     .sliderSec .carousel-control span {
-        bottom: 0;
-        color: #174873;
-        font-family: "fontawesome";
-        font-size: 30px;
-        left: 0;
-        margin: 0 auto;
-        position: absolute;
-        right: 0;
-        top: 114px;
+
+        top: 105px;
     }
     .sliderSec .carousel-indicators {
-        bottom: 10px;
-        left: 50%;
-        list-style: outside none none;
-        margin-left: -30%;
-        padding-left: 0;
-        position: absolute;
-        text-align: center;
-        width: 60%;
-        z-index: 15;
+
         display: none;
     }
     .featureHide{
@@ -627,6 +673,39 @@
             font-size: 10px;
         }
     }
+
+    .featureService1 {
+        box-shadow: 2px 2px 5px #ddd;
+        padding: 24px;
+    }
+    .prichingPageSec .prichingSubmenu {
+        display: none;
+    }
+    .mainDiscuss {
+        padding: 30px 10px;
+        .DiscusBtnCon1 {
+            float: left;
+            margin-left: 13px;
+            margin-top: 24px;
+        }
+        .DiscusBtnCon h2 {
+            color: #0fa2da;
+            display: inline-block;
+            font-size: 28px;
+            font-weight: 700;
+        }
+    }
+    .DePSingUpBtn {
+        padding: 17px 0 0;
+        h2 {
+            color: #0078ae;
+            display: block;
+            font-size: 25px;
+            font-weight: 700;
+            padding-bottom: 20px;
+        }
+    }
+
 
 }
 
@@ -777,7 +856,7 @@
         top: 66px !important;
     }
     .featureService1{
-        padding: 40px;
+        padding: 30px;
         .featureSerContent{
             padding-top: 0px !important;
             h2{
@@ -840,6 +919,35 @@
         margin-bottom: 23px;
         margin-top: 13px;
     }
+    .prichingPageSec .prichingSubmenu {
+        display: none;
+    }
+    .mainDiscuss {
+        padding: 36px 22px;
+
+        .DiscusBtnCon1 {
+            margin-left: 32px;
+            .DiscusBTn {
+                background: #88ba00 none repeat scroll 0 0;
+                border-radius: 9px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: 700;
+                height: 57px;
+                overflow: hidden;
+                padding: 13px 14px;
+                position: relative;
+                text-transform: uppercase;
+            }
+        }
+        .DiscusBtnCon h2 {
+            color: #0fa2da;
+            display: inline-block;
+            font-size: 29px;
+            font-weight: 700;
+        }
+    }
+
 }
 @media(min-width:990px) and (max-width: 1026px){
     .featureMenufixed {
@@ -896,7 +1004,9 @@
             margin-bottom: 15px;
         }
     }
-
+    .prichingPageSec .prichingSubmenu {
+        display: none;
+    }
 }
 @media(min-width:1025px) and (max-width: 1195px){
     .featureMenu .mainFeatureMenu ul li {
@@ -907,5 +1017,10 @@
         padding: 13px;
         text-align: center;
         width: 153px;
+    }
+}
+@media(min-width:1500px) and (max-width: 2500px){
+    .sliderSec .carousel-control span {
+        display: none;
     }
 }

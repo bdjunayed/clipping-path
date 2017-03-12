@@ -342,6 +342,12 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     text-transform: capitalize;
     line-height: 25px;
     margin-bottom: 9px;
+    a{
+        color: #fff;
+        &:hover{
+            color: #E79800;
+        }
+    }
 }
 
 .footerRightWidget{
@@ -745,7 +751,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     position: relative;
     width: 100%;
     height: auto;
-    padding: 80px 0;
+    padding: 22px 0;
     .benefitsTitle{
         position: relative;
         h1{
@@ -753,7 +759,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
             font-size: 40px;
             font-weight: 300;
             line-height: 50px;
-            margin-bottom: 60px;
+            margin-bottom: 18px;
         }
     }
     .singleBenefit{
@@ -818,11 +824,11 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
         background: #fff;
         height: auto;
         z-index: 1;
-        padding: 50px;
+        padding: 13px 0 0 27px;
 
         .benelistItem{
             .benIcon{
-                width: 10%;
+                width: 6%;
                 height: auto;
                 float: left;
                 i{
@@ -910,7 +916,9 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
 .featureMenu{
     width: 100%;
     height: auto;
+    position: relative;
     background: #FAFAFA;
+    
     .mainFeatureMenu ul{
         padding: 0;
         margin: 0;
@@ -919,15 +927,15 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
             height: auto;
             list-style: outside none none;
             width: 186px;
-            padding: 30px;
+            padding: 20px;
             text-align: center;
             box-shadow: 0 0px 1px #ddd;
             a{
                 color: #333;
                 font-family: "Lato",sans-serif;
-                font-size: 18px;
-                font-weight: 500;
-                line-height: 26px;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 20px;
                 text-transform: uppercase;
                 white-space: nowrap;
 
@@ -952,7 +960,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     position: relative;
     width: 100%;
     height: auto;
-    padding: 80px;
+    padding: 25px;
     .featureSerContent{
         position: relative;
         h2{
@@ -978,6 +986,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
                 padding: 10px 40px;
                 border-radius: 4px;
                 transition: .3s;
+                box-shadow: 2px 1px 3px #333;
                 &:hover{
                     background: #E79800;
                 }
@@ -1508,56 +1517,74 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     position: relative;
     width: 100%;
 }
-
-.DiscusBtnCon {
-    border: 1px solid #ddd;
-    height: 100%;
-    padding: 50px 92px;
+.mainDiscuss1{
+    padding: 30px !important;
+    .DiscusBtnCon h2{
+        font-size: 29px !important;
+    }
+    .DiscusBtnCon1{
+        margin-top: 10px !important;
+    }
+}
+.mainDiscuss{
     width: 100%;
+    padding: 35px 92px;
+    border: 1px solid #ddd;
     position: relative;
     border-radius: 4px;
+    margin: 20px auto;
+    box-shadow: 1px 1px 6px #ddd;
     &:after {
+
         position: absolute;
         content: '';
         left: 0;
         bottom: 0;
         width: 100%;
         height: 3px;
-        background: #0fa2da;
+        background: #174873;
     }
-    h2 {
-        color: #0fa2da;
-        display: inline-block;
-        font-size: 42px;
-        font-weight: 700;
-    }
-    .DiscusBTn {
-        background: #88ba00 none repeat scroll 0 0;
-        border-radius: 9px;
-        color: #fff;
-        font-size: 17px;
-        font-weight: 700;
-        height: 57px;
-        margin-left: 42px;
-        padding: 15px 43px;
-        position: relative;
-        text-transform: uppercase;
-        width: 246px;
-        z-index: 999;
-        overflow: hidden;
-        &:hover:before {
-            visibility: visible;
-            opacity: 1;
-            transition: all 0.25s cubic-bezier(.66,.36,.17,.91);
-            height: 57px;
-            top: 57px;
-        }
-    }
-    .desBtn{
+    .DiscusBtnCon {
         float: left;
+
+        h2 {
+            color: #174873;
+            display: inline-block;
+            font-size: 42px;
+            font-weight: 300;
+        }
+
     }
-    > a > i {
-        padding-left: 19px;
+    .DiscusBtnCon1{
+        float: left;
+        margin-left: 30px;
+        margin-top: 16px;
+        .DiscusBTn {
+            background: #E79800 none repeat scroll 0 0;
+            border-radius: 9px;
+            color: #fff;
+            font-size: 17px;
+            font-weight: 700;
+            height: 57px;
+            padding: 13px 36px;
+            position: relative;
+            text-transform: uppercase;
+            overflow: hidden;
+            box-shadow: 0px 2px 4px #333;
+            &:hover:before {
+                visibility: visible;
+                opacity: 1;
+                transition: all 0.25s cubic-bezier(.66,.36,.17,.91);
+                height: 57px;
+                top: 57px;
+            }
+        }
+        .desBtn{
+            float: left;
+        }
+        > a > i {
+            padding-left: 19px;
+        }
     }
 }
 
@@ -1566,6 +1593,7 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
     height: 100%;
     position: relative;
     border-top: 2px solid #e8e8e8;
+    margin-top: 30px;
 }
 
 .DePSingUpBtn {
@@ -1629,13 +1657,12 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
 -----------------------------clipping page layout----------------------*/
 .clipSecService1{
     position: relative;
-    background: #fafafa;
     padding: 20px 0;
     .secservWedMenu{
         background: #fff none repeat scroll 0 0;
         padding: 15px;
         position: fixed;
-        z-index: 1;
+        z-index: 0;
         h2{
             color: #0fa2da;
             font-size: 16px;
@@ -1671,35 +1698,41 @@ $golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
                 }
             }
         }
-        .secServwedCon{
+    }
+    .secServwedCon{
 
-            h2{
-                color: #174873;
-                font-size: 27px;
-                font-weight: 700;
-                letter-spacing: 0;
-                padding: 7px 0 20px;
-                text-transform: none;
-            }
-            p{
-                color: #727272;
-                line-height: 1.7;
-                font-size: 14px;
-                margin-bottom: 20px;
-            }
-            .abPara{
-                font-size: 16px;
-                font-weight: 600;
-                margin-bottom: 12px;
-
-            }
-            h3{
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 26px;
-                margin-bottom: 20px;
-            }
+        h2{
+            color: #174873;
+            font-size: 27px;
+            font-weight: 700;
+            letter-spacing: 0;
+            padding: 7px 0 20px;
+            text-transform: none;
         }
+        p{
+            color: #727272;
+            line-height: 1.7;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .abPara{
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+
+        }
+        h3{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+.clipSecService1.clipSecService2{
+    .secservWedMenu.secservWedMenu1{
+        position: relative;
     }
 }
 
@@ -1869,15 +1902,16 @@ mony reciption section*/
 }
 /*--------------clipping path service------------*/
 .clippingserviceContent{
+    
     h1{
-        font-size: 36px;
+        font-size: 40px;
         font-weight: 300;
         line-height: 28px;
         margin: 20px 0;
     }
     p{
-        color: #777;
-        font-size: 15px;
+        color: #777777;
+        font-size: 16px;
         line-height: 26px;
         margin-bottom: 20px;
         text-align: justify;
@@ -2027,20 +2061,20 @@ mony reciption section*/
         left: 3px;
         position: fixed;
         top: 144px;
+        z-index: 999;
         a{
-            border: 1px solid #fff;
             display: block;
             font-size: 14px;
-            font-weight:700;
+            font-weight:300;
             padding: 10px;
-            text-transform: uppercase;
-            background: #174873;
-            color: #fff;
+            text-transform: capitalize;
+            background: rgba(23,72,115, .1);
+            color: #174873;
             transition: all ease 300ms;
             border-radius: 6px;
-            &:hover{
-                background: #E79800;
-            }
+            margin: 5px 0;
+            z-index: 1;
+
         }
     }
     .prichingpageimg{

@@ -101,7 +101,11 @@
     text-transform: capitalize;
     width: 100%; }
   .prichingPageSec .prichingSubmenu {
-    display: none; } }
+    display: none; }
+  .celldevicewidth {
+    width: 100% !important; }
+  .trialsFormSec {
+    margin-top: 80px; } }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .headerTop {
@@ -271,7 +275,13 @@
       display: block;
       font-size: 19px;
       font-weight: 700;
-      padding-bottom: 20px; } }
+      padding-bottom: 20px; }
+  .celldevicewidth {
+    width: 100% !important; }
+  .trialsFormSec {
+    margin-top: 80px; }
+  .trialsFormSec .trialsForm2 .fileUp .inputtrials1 {
+    width: 100%; } }
 
 @media (min-width: 360px) and (max-width: 640px) {
   .featureMenu {
@@ -329,7 +339,9 @@
       color: #0fa2da;
       display: inline-block;
       font-size: 28px;
-      font-weight: 700; } }
+      font-weight: 700; }
+  .trialsFormSec {
+    margin-top: 80px; } }
 
 @media (min-width: 484px) and (max-width: 640px) {
   .headerTop {
@@ -415,7 +427,9 @@
   .feature-team .featureTeamTitle p::after {
     width: 25%; }
   .feature-team .featureTeamTitle p::before {
-    width: 25%; } }
+    width: 25%; }
+  .trialsFormSec {
+    margin-top: 80px; } }
 
 @media (min-width: 414px) and (max-width: 767px) {
   #menu {
@@ -514,7 +528,13 @@
       display: block;
       font-size: 25px;
       font-weight: 700;
-      padding-bottom: 20px; } }
+      padding-bottom: 20px; }
+  .celldevicewidth {
+    width: 100% !important; }
+  .trialsFormSec {
+    margin-top: 75px; }
+  .trialsFormSec .trialsForm2 .fileUp .inputtrials1 {
+    width: 48%; } }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .headerTop {

@@ -1575,7 +1575,7 @@ mony reciption section*/
 .clippingserviceContent h1 {
   font-size: 40px;
   font-weight: 300;
-  line-height: 28px;
+  line-height: 36px;
   margin: 20px 0; }
 
 .clippingserviceContent p {
@@ -1793,3 +1793,244 @@ mony reciption section*/
     padding: 0 18px 0 0; }
   .prichingPageSec .test1 {
     padding: 15px 18px; }
+
+/*--------------------------trials page----------------------*/
+.trialsFormSec {
+  position: relative;
+  margin: 80px 0 30px; }
+  .trialsFormSec .trialTitle h1 {
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 2.5px;
+    color: #174873;
+    line-height: 36px;
+    margin: 13px 0 10px;
+    text-align: center; }
+  .trialsFormSec .trialTitle p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 34px 0 12px;
+    text-align: right;
+    padding-right: 22px; }
+  .trialsFormSec .trialsForm {
+    float: left;
+    width: 47%;
+    margin-right: 19px; }
+    .trialsFormSec .trialsForm .inputtrials label {
+      font-size: 16px;
+      margin-bottom: 5px;
+      color: #174873; }
+      .trialsFormSec .trialsForm .inputtrials label span {
+        font-size: 12px;
+        font-weight: 400;
+        margin-left: 5px;
+        text-transform: capitalize; }
+    .trialsFormSec .trialsForm .inputtrials .trialsControl {
+      font-size: 14px;
+      width: 100%;
+      height: 37px;
+      border-color: #ddd; }
+    .trialsFormSec .trialsForm .inputtrials .trialsmsg {
+      height: 200px;
+      resize: none; }
+    .trialsFormSec .trialsForm .trialsBtn {
+      background: #E79800;
+      padding: 7px 50px;
+      font-size: 20px;
+      color: #fff;
+      margin-bottom: 20px;
+      transition: all ease 300ms; }
+      .trialsFormSec .trialsForm .trialsBtn:hover {
+        background: #174873; }
+  .trialsFormSec .trialsForm1 {
+    float: left;
+    width: 47%; }
+  .trialsFormSec .trialsForm2 .inputtrials label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #174873; }
+  .trialsFormSec .trialsForm2 .inputtrials .trialsmsg {
+    height: 109px;
+    resize: none;
+    width: 70%;
+    margin-bottom: 30px; }
+  .trialsFormSec .trialsForm2 .inputtrials .trialsControl3 {
+    width: 187px; }
+  .trialsFormSec .trialsForm2 .trialsBtn {
+    background: #E79800;
+    padding: 7px 50px;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    transition: all ease 300ms; }
+    .trialsFormSec .trialsForm2 .trialsBtn:hover {
+      background: #174873; }
+  .trialsFormSec .trialsForm2 .fileUp {
+    width: 100%; }
+    .trialsFormSec .trialsForm2 .fileUp p {
+      font-size: 14px;
+      font-weight: 400;
+      color: #777;
+      padding: 11px 0; }
+    .trialsFormSec .trialsForm2 .fileUp .inputtrials1 {
+      border: 3px dashed #ddd;
+      padding: 30px;
+      float: left;
+      margin-right: 10px;
+      width: 35%; }
+      .trialsFormSec .trialsForm2 .fileUp .inputtrials1 .lebel {
+        color: #174873; }
+      .trialsFormSec .trialsForm2 .fileUp .inputtrials1 .tralImg img {
+        width: 33%;
+        height: auto;
+        margin: 15px 0; }
+      .trialsFormSec .trialsForm2 .fileUp .inputtrials1 .filetext {
+        color: #174873; }
+      .trialsFormSec .trialsForm2 .fileUp .inputtrials1:hover {
+        background: #F0F9FF;
+        border: 3px solid #333; }
+  .trialsFormSec .trialspara h3 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 36px;
+    color: #174873; }
+  .trialsFormSec .trialspara h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 10px;
+    color: #174873; }
+  .trialsFormSec .trialspara p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+    line-height: 24px;
+    margin-bottom: 10px; }
+
+.contactFormSec {
+  padding: 80px 0;
+  background: #fafafa; }
+
+.input-group {
+  width: 100%;
+  height: auto; }
+  .input-group label {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 5px;
+    color: #174873; }
+
+.conIcon {
+  width: 16%;
+  float: left; }
+  .conIcon i {
+    border: 2px solid #3f84a4;
+    border-radius: 50%;
+    color: #3f84a4;
+    font-size: 36px;
+    padding: 10px 16px; }
+
+.conIcon1 {
+  width: 16%;
+  float: left; }
+  .conIcon1 i {
+    border: 2px solid #3f84a4;
+    border-radius: 50%;
+    color: #3f84a4;
+    font-size: 36px;
+    padding: 10px 20px; }
+
+.conIcon2 {
+  width: 16%;
+  float: left; }
+  .conIcon2 i {
+    border: 2px solid #3f84a4;
+    border-radius: 50%;
+    color: #3f84a4;
+    font-size: 36px;
+    padding: 10px 13px; }
+
+.contactText {
+  width: 80%;
+  float: left;
+  margin: 0 0 36px; }
+  .contactText h3 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: capitalize; }
+  .contactText p {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #999; }
+
+.inFormGru {
+  width: 88%; }
+  .inFormGru .ingroupphone {
+    float: left;
+    width: 50%; }
+    .inFormGru .ingroupphone .inNamework1 {
+      width: 96%; }
+  .inFormGru .ingroupphone1 {
+    float: left;
+    width: 50%; }
+    .inFormGru .ingroupphone1 .inNamework1 {
+      width: 96%; }
+
+.form-group.inputtrials > label {
+  color: #174873;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: capitalize; }
+
+.conForm .buton {
+  background: #E79800 none repeat scroll 0 0;
+  color: #fff;
+  font-weight: 700;
+  padding: 8px 29px;
+  text-transform: uppercase;
+  transition: all 600ms ease 0s;
+  margin-bottom: 15px; }
+  .conForm .buton:hover {
+    background: #174873; }
+
+.inNamework {
+  border-color: transparent;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px #ddd;
+  color: #333;
+  float: left;
+  font-size: 16px;
+  height: 35px;
+  margin-bottom: 16px;
+  padding-left: 13px;
+  text-transform: capitalize;
+  width: 88%; }
+  .inNamework:focus {
+    box-shadow: 1px 1px 5px #174873; }
+
+.msgboxwork {
+  height: 110px;
+  resize: none;
+  padding-top: 15px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  margin-bottom: 25px; }
+
+.trialsControl6 {
+  display: block;
+  border-color: transparent;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px #ddd;
+  color: #333;
+  font-size: 16px;
+  height: 35px;
+  text-transform: capitalize; }

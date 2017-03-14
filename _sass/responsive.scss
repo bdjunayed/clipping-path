@@ -136,6 +136,13 @@
     .prichingPageSec .prichingSubmenu {
         display: none;
     }
+    .celldevicewidth{
+        width: 100% !important;
+    }
+
+    .trialsFormSec{
+        margin-top: 80px;
+    }
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .headerTop{
@@ -373,7 +380,16 @@
             padding-bottom: 20px;
         }
     }
+    .celldevicewidth{
+        width: 100% !important;
+    }
 
+    .trialsFormSec{
+        margin-top: 80px;
+    }
+    .trialsFormSec .trialsForm2 .fileUp .inputtrials1 {
+        width: 100%;
+    }
 }
 
 @media (min-width: 360px) and (max-width: 640px){
@@ -452,7 +468,9 @@
             font-weight: 700;
         }
     }
-
+    .trialsFormSec{
+        margin-top: 80px;
+    }
 }
 @media (min-width: 484px) and (max-width:640px){
     .headerTop {
@@ -570,7 +588,9 @@
     .feature-team .featureTeamTitle p::before {
         width: 25%;
     }
-
+    .trialsFormSec{
+        margin-top: 80px;
+    }
 }
 @media (min-width: 414px) and (max-width:767px){
     #menu{
@@ -705,8 +725,15 @@
             padding-bottom: 20px;
         }
     }
-
-
+    .celldevicewidth{
+        width: 100% !important;
+    }
+    .trialsFormSec{
+        margin-top: 75px;
+    }
+    .trialsFormSec .trialsForm2 .fileUp .inputtrials1 {
+        width: 48%;
+    }
 }
 
 @media (min-width: 768px) and (max-width:1024px){
